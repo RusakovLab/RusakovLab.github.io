@@ -14,7 +14,7 @@ and our long-term industrial collaborators at:
 - **[Unboltsoft](https://unboltsoft.com/) (Dnipro, Ukraine)**
 - **[CyberCurio LLP](https://cybercurio.weebly.com/) (Berkhamsted, UK)**
 
-Our publications, reflecting research on [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
+Publications reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
 1. [**Equal levels of pre-and postsynaptic potentiation produce unequal outcomes.**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0235)  
    Savtchenko LP, Rusakov DA.  
