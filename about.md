@@ -4,7 +4,7 @@ title: ABOUT
 order: 20
 ---
 
-Neuroalgebra is a collaborative project spearheaded by the 
+Neuroalgebra is a collaborative project led by the 
 [UCL Laboratory of Synaptic Imaging](https://www.ucl.ac.uk/ion/research/research-departments/department-clinical-and-experimental-epilepsy/experimental-research-4). The dedicated team behind this initiative includes:
 - **Leonid P. Savtchenko**
 - **Dmitri A. Rusakov**
