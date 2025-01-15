@@ -19,14 +19,13 @@ layout: page
 
 
 
-#### Documentation 
-From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to harness the full potential of BRAINCELL: [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}).
+#### Installation and Documentation 
+You have to register on [Neuroalgebra Forum](https://forum.neuroalgebra.net/) to install and explore BRAINCELL. From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to harness the full potential of BRAINCELL: [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}). 
 
-#### Ongoing Support
-Our commitment to your research extends beyond software provision. We offer continuous support to help you unlock groundbreaking insights into brain functionality.
+#### Support
+Our commitment to your research extends beyond software provision. Please consult our [Support Page](http://neuroalgebra.net/support.html).
 
-#### Building Realistic Cell Models - Characteristic Steps 
-
+#### Building Realistic Cell Models - Notes on Key Steps 
 - **Basic cell morphology**: Start by importing a 3D reconstructed tree of principal cell processes from neuromorpho.org, another database, or create your own.
 - **Real-world morphometrics on the nanoscale**: Establish or adopt statistical properties of cell nanostructures unattainable for direct reconstruction, such as dendritic spines or astrocyte protrusions.    
 - **Stochastic generation of cellular nanostructures**: Leverage BRAINCELL capability to generate large populations of synapses, dendritic spines, or nanoscopic astroglial processes, ensuring their statistical properties align with real-word statistics.
