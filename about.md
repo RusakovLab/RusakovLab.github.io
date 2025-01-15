@@ -4,7 +4,7 @@ title: ABOUT
 order: 20
 ---
 
-Neuroalgebra is a collaborative project led by the 
+*Neuroalgebra* is a collaborative project led by the 
 [UCL Laboratory of Synaptic Imaging](https://www.ucl.ac.uk/ion/research/research-departments/department-clinical-and-experimental-epilepsy/experimental-research-4). The dedicated team behind this initiative includes:
 - **Leonid P. Savtchenko**
 - **Dmitri A. Rusakov**
@@ -13,6 +13,8 @@ and our long-term industrial collaborators at:
 - **[AMC Bridge LLC](https://www.amcbridge.com) (Waltham MA, USA)**
 - **[Unboltsoft](https://unboltsoft.com/) (Dnipro, Ukraine)**
 - **[CyberCurio LLP](https://cybercurio.weebly.com/) (Berkhamsted, UK)**
+
+To download and explore our computational [Tools](http://neuroalgebra.net/tools.html), please register at [Neuroalgebra Forum](https://forum.neuroalgebra.net/). For support and  suggestions, please consult our [Support Page](http://neuroalgebra.net/support.html). 
 
 Publications reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
@@ -57,25 +59,4 @@ Publications reflecting our development and exploration of [ARACHNE](https://neu
    
    
 
-If you require support please join Neuroalgebra forum. For any suggestions about our tools or the Website, please feel free to share them with us via 
-<span class="about-email" onclick="openEmailClient()">Email</span>.
-
-<script>
-function openEmailClient() {
-  function oES() {
-    var empty = '' + ' ' + String.fromCharCode(32); 
-    return empty.trim();
-  }
-
-  function genEmail() {
-    var user = 'sav'+oES()+'tch'+oES()+'enko';
-    var s1 = String.fromCharCode(64);
-    var s2 = String.fromCharCode(46);
-    var domain = 'ya'+oES()+'hoo' + s2 + 'com';
-    return user + s1 + oES() + domain;
-  }
-
-  window.location.href = 'mailto:' + genEmail();
-}
-</script>
 
