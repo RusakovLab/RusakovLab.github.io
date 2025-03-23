@@ -18,8 +18,8 @@ To download and explore our computational [Tools](http://neuroalgebra.net/tools.
 
 Publications reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
-1.  [**Astrocyte Kir4. 1 expression level territorially controls excitatory transmission in the brain.**](https://www.cell.com/cell-reports/fulltext/S2211-1247(25)00070-1)
-   Tiurikova O, Kopach O, Zheng K, Rathore D, Codadu N, Wu S-Y, Shen Y, Campbell RE, Wykes RC, Volynski K, Savtchenko LP, Rusakov DA.
+1.  [**Astrocyte Kir4. 1 expression level territorially controls excitatory transmission in the brain.**](https://www.cell.com/cell-reports/fulltext/S2211-1247(25)00070-1)  
+   Tiurikova O, Kopach O, Zheng K, Rathore D, Codadu N, Wu S-Y, Shen Y, Campbell RE, Wykes RC, Volynski K, Savtchenko LP, Rusakov DA.  
    *Cell Reports 2025, 44:115299.*
     
 3.  [**Equal levels of pre-and postsynaptic potentiation produce unequal outcomes.**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0235)  
