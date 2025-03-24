@@ -27,7 +27,7 @@ Publications reflecting our development and exploration of [ARACHNE](https://neu
    *Phil Trans Roy Soc B 2024, 379:20230235.*
 
 4. [**Volume-Transmitted GABA Waves Pace Epileptiform Rhythms in the Hippocampal Network.**](https://www.cell.com/current-biology/pdf/S0960-9822(23)00191-4.pdf)  
-   Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger, JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
+   Magloire V, Savtchenko LP, T Jensen, S Sylantyev, O Kopach, N Cole, O Tyurikova, D M Kullmann, M C Walker, J S Marvin, LL Looger,  JP Hasseman, I Kolb, I Pavlov, Rusakov DA.  
    *Current Biology 2023, 33:1249-1264.*
    
 5. [**Release probability increases towards distal dendrites boosting high-frequency signal transfer in the rodent hippocampus.**](https://elifesciences.org/articles/62588)  
