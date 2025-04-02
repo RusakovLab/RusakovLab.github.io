@@ -319,7 +319,33 @@ video { width: 100%; max-width: 100%; height: auto; border-top-left-radius: 10px
 /* vertical separator beween two Braincell videos on wide screens */
 .braincell-videos .separator { width: 1px; background-color: #ccc; margin: 0 5px; }
 
-@media (max-width: 800px) { .video-container.astro, .video-container.braincell, .video-container.arachne { width: 95%; } .video-container { width: 95%; } .video-subcontainer { width: 100%; position: relative; } .tools-container { flex-direction: column; /* Stack containers vertically on smaller screens */ align-items: center; } .braincell-videos { display: flex; flex-direction: column; } /* horizontal separator beween two Braincell videos on narrow screens */ .braincell-videos .separator { width: 80%; height: 1px; background-color: #ccc; margin: 10px auto; } /* Set the font size for smaller screens */ .footer-col-wrapper { font-size: 12px; } }
+@media (max-width: 800px) { .video-container.astro, .video-container.braincell, .video-container.arachne { width: 95%; } .video-container { width: 95%; } .video-subcontainer { width: 100%; position: relative; } .tools-container { flex-direction: column; /* Stack containers vertically on smaller screens */ align-items: center; } .braincell-videos { display: flex; flex-direction: column; } /* horizontal separator between two Braincell videos on narrow screens */ .braincell-videos .separator { width: 80%; height: 1px; background-color: #ccc; margin: 10px auto; } }
+
+.footer-col-wrapper { display: flex; justify-content: space-between; align-items: stretch; flex-wrap: nowrap; font-size: 12px; }
+
+.footer-col-1 { width: 8%; flex-shrink: 0; }
+
+.footer-col-3 { flex-grow: 1; display: flex; justify-content: flex-end; text-align: left; overflow: visible; }
+
+#map-icon { cursor: pointer; width: 200px; z-index: 1000; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); overflow: hidden; cursor: pointer; transition: transform 0.2s ease-in-out; }
+
+#map-icon:hover { transform: scale(1.2); }
+
+#map-background { display: none; position: fixed; background-color: rgba(0, 0, 0, 0.8); top: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+
+/* User map pop-up, initially hidden */
+#map-overlay { display: none; position: relative; top: 0; left: 0; width: 100%; height: 100%; z-index: 200; }
+
+#map-wrapper { position: relative; display: inline-block; }
+
+#map-img { width: 100%; max-width: 100%; height: auto; display: block; }
+
+/* X Button - Top Right Corner to close the map */
+#close-map { position: absolute; top: 10px; right: 10px; font-size: 2vw; color: white; cursor: pointer; font-weight: bold; z-index: 3000; background: rgba(0, 0, 0, 0.6); padding: 10px 20px; border-radius: 5px; }
+
+#close-map:hover { background: rgba(255, 255, 255, 0.6); color: black; }
+
+@media screen and (max-width: 600px) { #close-map { font-size: 16px; /* avoid too small "X" to close the map */ } }
 
 /* Text styling */
 .video-text { padding: 8px; word-wrap: break-word; color: #1756a9; }
@@ -343,10 +369,6 @@ video { width: 100%; max-width: 100%; height: auto; border-top-left-radius: 10px
 .about-email { display: inline-block; padding: 0 5px; border: 1px solid #ccc; border-radius: 5px; border-color: #000; text-decoration: none; }
 
 .about-email:hover { background-color: #eee; cursor: pointer; }
-
-/* .footer-col-1 { width: 14%; } /* Email Us removed */
-/* .footer-col-2 { width: 0%; } /* social links removed */
-.footer-col-3 { width: 100%; }
 
 /* live background from https://wweb.dev/resources/animated-css-background-generator */
 @keyframes move { 100% { transform: translate3d(0, 0, 1px) rotate(360deg); } }

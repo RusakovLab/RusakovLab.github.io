@@ -98,8 +98,19 @@
     <!--
     <h2 class="footer-heading">Neuroalgebra</h2>
     -->
+    <!-- Map Background (to dim behind the overlay) and the Map Overlay (Initially Hidden) -->
+    <div id="map-background"></div>
+    <div id="map-overlay">
+        <span id="close-map">&times;</span>
+        <img id="map-img" src="/assets/map.png" alt="Map">
+    </div>
 
     <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1" >
+        <!-- Map Icon -->
+        <img id="map-icon" src="/assets/map-icon.png" alt="Map Icon">
+      </div>
+
     <!--
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -112,18 +123,56 @@
 </div>
       -->
 
+<!--      <div class="footer-col footer-col-2">&nbsp;</div> <!-- Non-breaking space to force visibility -->
+
       <div class="footer-col footer-col-3">
 <!--        <p></p> -->
-<div><strong>This portal is a research project at Queen Square Institute of Neurology, 
-University College London.</strong></div>
-<div>It is a free resource for neuroscientists and neurologists. The project was and is 
-currently funded by: BBSRC, NC3Rs, MRC, ERC.</div>
+        <p><strong>This portal is a research project at Queen Square Institute of Neurology, 
+        University College London.</strong><br>
+        It is a free resource for neuroscientists and neurologists. The project was and is 
+        currently funded by: BBSRC, NC3Rs, MRC, ERC, Wellcome.</p>
       </div>
     </div>
 
   </div>
 
+<script>
+  //JS to create map pop-up when map icon is clicked and to close it
+  document.addEventListener("DOMContentLoaded", function () {
+    var mapOverlay = document.getElementById("map-overlay");
+    var closeMap = document.getElementById("close-map");
+    var mapIcon = document.getElementById("map-icon");
+    var mapBackground = document.getElementById("map-background");
+
+    // Ensure overlay is hidden initially
+    mapOverlay.style.display = "none";
+    mapBackground.style.display = "none";
+
+    // Open the map overlay when clicking the icon
+    mapIcon.addEventListener("click", function () {
+      mapBackground.style.display = "flex";
+      mapOverlay.style.display = "flex";
+      mapOverlay.style.justifyContent = "center";
+      mapOverlay.style.alignItems = "center";
+    });
+
+    // Close the map when clicking the "X"
+    closeMap.addEventListener("click", function () {
+      mapOverlay.style.display = "none";
+      mapBackground.style.display = "none";
+    });
+
+    // Close when clicking anywhere outside the map
+    mapBackground.addEventListener("click", function (event) {
+      if (!mapOverlay.contains(event.target)) {
+        mapOverlay.style.display = "none";
+        mapBackground.style.display = "none";
+      }
+    });
+  });
+</script>
 </footer>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const pageLinks = document.querySelectorAll('.page-link');
