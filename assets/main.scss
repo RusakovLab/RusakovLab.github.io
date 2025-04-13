@@ -155,12 +155,12 @@ video {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: nowrap;
-  font-size: 1.17em;
+  font-size: 1em;
 }
 
 /* Note: this width % (sets the size of map-icon) defines the height of the footer */
 .footer-col-1 {
-  width: 15%;
+  width: 10%;
   flex-shrink: 0;
 }
 
@@ -185,7 +185,8 @@ video {
 #map-icon:hover { transform: scale(1.2); }
 
 /* Increase the map icon size on small screens */
-@media (max-width: 900px) { .footer-col-1 { width: 25%; } }
+@media (max-width: 900px) { .footer-col-1 { width: 20%; } }
+@media (max-width: 500px) { .footer-col-1 { width: 30%; } }
 
 #map-background {
   display: none;
@@ -282,6 +283,7 @@ video {
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 100px; /* with padding and border it's 121px and page-content has bottom: 124px*/
   padding: 10px;
   border-top: 2px solid #e8e8e8;
   z-index: 2000;
