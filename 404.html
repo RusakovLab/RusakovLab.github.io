@@ -105,10 +105,13 @@
     <h2 class="footer-heading">Neuroalgebra</h2>
     -->
     <!-- Map Background (to dim behind the overlay) and the Map Overlay (Initially Hidden) -->
-    <div id="map-background"></div>
-    <div id="map-overlay">
-        <span id="close-map">&times;</span>
-        <img id="map-img" src="/assets/map.png" alt="Map">
+    <div id="map-background">
+      <div id="map-overlay">
+        <div id="map-wrapper">
+          <img id="map-img" src="/assets/map.png" alt="Map" />
+          <span id="close-map">&times;</span>
+        </div>
+      </div>
     </div>
 
     <div class="footer-col-wrapper">
@@ -166,9 +169,10 @@
       mapBackground.style.display = "none";
     });
 
-    // Close when clicking anywhere outside the map
+    // Close when clicking anywhere outside the map (on the map background)
     mapBackground.addEventListener("click", function (event) {
-      if (!mapOverlay.contains(event.target)) {
+    // Ensure that the map is closed only when clicking outside the #map-wrapper
+      if (!event.target.closest("#map-wrapper")) {
         mapOverlay.style.display = "none";
         mapBackground.style.display = "none";
       }
