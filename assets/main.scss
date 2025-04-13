@@ -11,7 +11,7 @@
   height: 74px;
   width: 100%;
   border-bottom: 2px solid #e8e8e8;
-  z-index: 10000;
+  z-index: 2000;
   contain: layout;
 }
 
@@ -20,19 +20,23 @@ main.page-content {
   top: 84px;
   left: 0;
   right: 0;
-  bottom: 110px;
+  bottom: 124px;
   overflow-y: scroll;
 }
 
 .wrapper {
   margin: 0 auto;
   background-color: white;
-  max-width: 80vw;
+  max-width: 100vw;
+
+  /* relative limit on wide screens */
+  @media (min-width: 1201px) {
+    max-width: 80vw;
+  }
+
+  /* absolute limit on very wide screens */
   @media (min-width: 1500px) {
     max-width: 1200px;
-  }
-  @media only screen and (max-width: 1200px) {
-    max-width: 100vw;
   }
 }
 
@@ -44,7 +48,7 @@ main.page-content {
 }
 
 .site-title{
-font-weight: bold;
+  font-weight: bold;
 }
 
 .active-tab {
@@ -57,11 +61,11 @@ font-weight: bold;
 
 .page-link.external-link {
   text-decoration: none;
-  cursor: pointer; /* Optional: Change cursor for better indication of clickability */
+  cursor: pointer; /* Change cursor for better indication of clickability */
 }
 
 .page-link.external-link:visited {
-  color: inherit; /* Optional: Preserve the visited link color */
+  color: inherit; /* Preserve the visited link color */
 }
 
 #videoPlayer {
@@ -151,11 +155,12 @@ video {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: nowrap;
-  font-size: 12px;
+  font-size: 1.17em;
 }
 
+/* Note: this width % (sets the size of map-icon) defines the height of the footer */
 .footer-col-1 {
-  width: 8%;
+  width: 15%;
   flex-shrink: 0;
 }
 
@@ -169,15 +174,18 @@ video {
 
 #map-icon {
   cursor: pointer;
-  width: 200px;
+  width: auto;
+  height: auto;
   z-index: 1000;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
 #map-icon:hover { transform: scale(1.2); }
+
+/* Increase the map icon size on small screens */
+@media (max-width: 900px) { .footer-col-1 { width: 25%; } }
 
 #map-background {
   display: none;
@@ -276,6 +284,7 @@ video {
   width: 100%;
   padding: 10px;
   border-top: 2px solid #e8e8e8;
+  z-index: 2000;
 }
 
 /* we hide footer on screens of low height (landscape) */
@@ -291,6 +300,7 @@ video {
 }
 
 /* we hide footer on very small/narrow screens */
+/*
 @media only screen and (max-width: 400px) {
   .site-footer {
     display: none;
@@ -304,6 +314,7 @@ video {
     bottom: 10px;
   }
 }
+*/
 
 .about-email{
   display: inline-block;

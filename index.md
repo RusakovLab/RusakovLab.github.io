@@ -26,7 +26,7 @@ layout: home
   <!-- BRAINCELL -->
   <div class="video-container braincell" onclick="location.href='{% link braincell.md %}'">
     <div class="video-text">
-      <p><strong><h3>BRAINCELL</h3></strong> simulates brain cell moprhology and physiology     
+      <p><strong><h3>BRAINCELL</h3></strong> simulates brain cell morphology and physiology
       with their stochastic nano-features, dynamic extracellular environment and inter-cellular </p>
       <p> signalling, on the scale from nanometers to hundreds of microns </p>
     </div>
