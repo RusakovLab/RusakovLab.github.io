@@ -17,7 +17,7 @@
 
 main.page-content {
   position: absolute;
-  top: 84px;
+  top: 90px;
   left: 0;
   right: 0;
   bottom: 124px;
@@ -158,7 +158,6 @@ video {
   font-size: 1em;
 }
 
-/* Note: this width % (sets the size of map-icon) defines the height of the footer */
 .footer-col-1 {
   width: 10%;
   flex-shrink: 0;
@@ -202,23 +201,22 @@ video {
 /* User map pop-up, initially hidden */
 #map-overlay {
   display: none;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 200;
+  display: flex; //!!
+  justify-content: center;
+  align-items: center;
 }
-
 #map-wrapper {
-  position: relative;
-  display: inline-block;
+  position: relative;  /* Allow absolute positioning inside it */
 }
 
 #map-img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -227,7 +225,7 @@ video {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 2vw;
+  font-size: clamp(16px, 2vw, 28px);
   color: white;
   cursor: pointer;
   font-weight: bold;
@@ -286,6 +284,7 @@ video {
   height: 100px; /* with padding and border it's 121px and page-content has bottom: 124px*/
   padding: 10px;
   border-top: 2px solid #e8e8e8;
+  overflow: visible;
   z-index: 2000;
 }
 
