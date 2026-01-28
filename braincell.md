@@ -20,10 +20,13 @@ layout: page
 
 
 #### Installation and Documentation 
-You have to register on [Neuroalgebra Forum](https://forum.neuroalgebra.net/) to install and explore BRAINCELL. From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to harness the full potential of BRAINCELL: [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}). 
+You have to register on [Neuroalgebra Forum](https://forum.neuroalgebra.net/) to install and explore BRAINCELL. 
+From installation to simulations to output analyses, our in-depth user manual provides the guidance you need to 
+harness the full potential of BRAINCELL: [BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %}). 
+For detailed installation instructions please refer to our [Tools Page]({% link tools.md %}).
 
 #### Support
-Our commitment to your research extends beyond software provision. Please consult our [Support Page](http://neuroalgebra.net/support.html).
+Our commitment to your research extends beyond software provision. Please consult our [Support Page]({% link support.md %}).
 
 #### Building Realistic Cell Models - Notes on Key Steps 
 - **Basic cell morphology**: Start by importing a 3D reconstructed tree of principal cell processes from neuromorpho.org, another database, or create your own.
