@@ -32,10 +32,10 @@ order: 20
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.<br>
    
    **Installation instructions:**
-   - [Quick Installation Guide](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"} (recommended - covers all platforms and scenarios) - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+   - [Quick Installation Guide](https://forum.neuroalgebra.net){:target="_blank"} (recommended - covers all platforms and scenarios) - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
    - [Windows installation instructions]({% link assets/BrainCell Installation Guide Windows v2.docx %})
    - [Linux/macOS/Windows installation instructions]({% link assets/BrainCell Installation Guide 3 OS v2.docx %})
-   - [Windows Sandbox testing guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+   - [Windows Sandbox testing guide](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 
    **Documentation:** 
    [PDF file]({% link assets/BRAINCELL_User_Guide.pdf %}), or in Word format
@@ -45,7 +45,7 @@ order: 20
    **Additional Resources:**
    - [GitHub Repository](https://github.com/RusakovLab/BrainCell){:target="_blank"}
    - [Forum Support & Downloads](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
-   - [Installation Package Download](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+   - [Installation Package Download](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
     <hr>
 
 5. **CLOUD COMPUTATION PLUGIN:** we are currently working with
@@ -77,7 +77,7 @@ order: 20
 ### Category 1 – Quick Setup
 *You already have NEURON and Python working*
 
-1. Download `cloudpackage-v1.zip` from [forum](https://forum.neuroalgebra.net/viewtopic.php?t=3){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+1. Download `cloudpackage-v1.zip` from [forum](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 2. Create folder: `C:\braincell` (Windows) or `~/braincell` (Mac/Linux)
 3. **Unblock the ZIP:** Right-click → Properties → ☑️ Unblock → Apply (Windows only)
 4. Extract ZIP to your folder
@@ -206,8 +206,8 @@ For those with Windows 10/11 Pro, you can test BrainCell in an isolated environm
 
 - **Forum:** [https://forum.neuroalgebra.net](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 - **GitHub:** [https://github.com/RusakovLab/BrainCell](https://github.com/RusakovLab/BrainCell){:target="_blank"}
-- **Installation Downloads:** [Forum Topic](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
-- **Sandbox Testing:** [Forum Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+- **Installation Downloads:** [Forum Topic](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+- **Sandbox Testing:** [Forum Guide](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 
 ---
 
