@@ -192,7 +192,7 @@ For those with Windows 10/11 Pro, you can test BrainCell in an isolated environm
    - Click **OK** and restart
 
 2. **Follow detailed sandbox testing guide:**
-   [Windows Sandbox Setup Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"}
+   [Windows Sandbox Setup Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 
 **Benefits:**
 - Clean testing environment
