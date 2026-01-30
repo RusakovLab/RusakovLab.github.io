@@ -91,7 +91,7 @@
 
     <p><strong>Documentation:</strong> 
 <a href="/assets/ASTRO_User_Guide_v7.pdf">PDF file</a>.<br />
-<!-- 📄 Featured Publication: [_Disentangling astroglial physiology with a realistic cell model in silico._](https://www.nature.com/articles/s41467-018-05896-w)
+<!-- ðŸ"„ Featured Publication: [_Disentangling astroglial physiology with a realistic cell model in silico._](https://www.nature.com/articles/s41467-018-05896-w)
 <br>Savtchenko LP, Bard L, Jensen TP, Reynolds JP, Kraev I, Medvedev N, Stewart MG, Henneberger C, Rusakov DA.<br>
 *Nat Commun. 2018 Sep 3;9(1):3554. doi: 10.1038/s41467-018-05896-w.* --></p>
     <hr />
@@ -101,7 +101,7 @@
 
     <p><strong>Documentation:</strong> 
 <a href="/assets/ARACHNE_UserManual.pdf">PDF file</a>.<br />
-<!-- 📄 Featured Publication: [_ARACHNE: A neural-neuroglial network builder with remotely controlled parallel computing._](https://pubmed.ncbi.nlm.nih.gov/28362877/)
+<!-- ðŸ"„ Featured Publication: [_ARACHNE: A neural-neuroglial network builder with remotely controlled parallel computing._](https://pubmed.ncbi.nlm.nih.gov/28362877/)
 <br>Aleksin SG, Zheng K, Rusakov DA, Savtchenko LP.<br>
 *PLoS Comput Biol. 2017 Mar 31;13(3):e1005467. doi: 10.1371/journal.pcbi.1005467.* --></p>
     <hr />
@@ -112,15 +112,27 @@
     <p><strong>Installation:</strong> 
 <a href="/assets/BrainCell-2025.03_x86_64_Setup.exe">BrainCell-2025.03_x86_64_Setup.exe</a> (Windows W10/W11 64-bit installer)<br />
 <strong>Important note:</strong> To run the Setup you will require password which you can find after
-<strong><a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">[Registration at our FORUM]</a></strong>.<br />
-<strong>Installation instructions:</strong>
-<a href="/assets/BrainCell%20Installation%20Guide%20Windows%20v2.docx">Windows installation instructions</a> and 
-<a href="/assets/BrainCell%20Installation%20Guide%203%20OS%20v2.docx">Linux/macOS/Windows installation instructions</a><br /></p>
+<strong><a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">[Registration at our FORUM]</a></strong>.<br /></p>
+
+    <p><strong>Installation instructions:</strong></p>
+    <ul>
+      <li><a href="#braincell-installation-guide">Quick Installation Guide</a> (recommended - covers all platforms and scenarios)</li>
+      <li><a href="/assets/BrainCell%20Installation%20Guide%20Windows%20v2.docx">Windows installation instructions</a></li>
+      <li><a href="/assets/BrainCell%20Installation%20Guide%203%20OS%20v2.docx">Linux/macOS/Windows installation instructions</a></li>
+      <li><a href="https://forum.neuroalgebra.net/viewtopic.php?t=173" target="_blank">Windows Sandbox testing guide</a></li>
+    </ul>
 
     <p><strong>Documentation:</strong> 
 <a href="/assets/BRAINCELL_User_Guide.pdf">PDF file</a>, or in Word format
 <a href="/assets/BRAINCELL_User_Guide.docx">BRAINCELL_User_Guide.docx</a>
 (alternatively, check <a href="/brdoc.html">experimental PDF-&gt;HTML conversion</a>).</p>
+
+    <p><strong>Additional Resources:</strong></p>
+    <ul>
+      <li><a href="https://github.com/RusakovLab/BrainCell" target="_blank">GitHub Repository</a></li>
+      <li><a href="https://forum.neuroalgebra.net" target="_blank">Forum Support &amp; Downloads</a></li>
+      <li><a href="https://forum.neuroalgebra.net/viewtopic.php?t=172" target="_blank">Installation Package Download</a></li>
+    </ul>
     <hr />
   </li>
   <li>
@@ -141,6 +153,196 @@ To register at the forum follow this link:
   </li>
 </ol>
 
+<hr />
+
+<h2 id="braincell-installation-guide">BrainCell Installation Guide</h2>
+
+<h3 id="choose-your-category">Choose Your Category</h3>
+
+<p><strong>Category 1:</strong> NEURON + Python already working → <a href="#category-1--quick-setup">Quick Setup</a><br />
+<strong>Category 2:</strong> Clean system (nothing installed) → <a href="#category-2--fresh-install">Fresh Install</a><br />
+<strong>Category 3:</strong> Partial installation or problems → <a href="#category-3--clean-reinstall">Clean Reinstall</a></p>
+
+<hr />
+
+<h3 id="category-1--quick-setup">Category 1 – Quick Setup</h3>
+<p><em>You already have NEURON and Python working</em></p>
+
+<ol>
+  <li>Download <code class="language-plaintext highlighter-rouge">cloudpackage-v1.zip</code> from <a href="https://forum.neuroalgebra.net/viewtopic.php?t=3" target="_blank">forum</a></li>
+  <li>Create folder: <code class="language-plaintext highlighter-rouge">C:\braincell</code> (Windows) or <code class="language-plaintext highlighter-rouge">~/braincell</code> (Mac/Linux)</li>
+  <li><strong>Unblock the ZIP:</strong> Right-click → Properties → ☑️ Unblock → Apply (Windows only)</li>
+  <li>Extract ZIP to your folder</li>
+  <li><strong>Windows:</strong> Unblock <code class="language-plaintext highlighter-rouge">init.bat</code>, then double-click it</li>
+  <li><strong>Mac/Linux:</strong> Run <code class="language-plaintext highlighter-rouge">chmod +x init.sh &amp;&amp; ./init.sh</code></li>
+</ol>
+
+<p><strong>Done!</strong> BrainCell window opens.</p>
+
+<hr />
+
+<h3 id="category-2--fresh-install">Category 2 – Fresh Install</h3>
+<p><em>Nothing installed yet</em></p>
+
+<h4 id="windows-easiest-method">Windows (Easiest Method)</h4>
+
+<p><strong>All-in-One Installer (Recommended):</strong></p>
+<ol>
+  <li>Download <a href="/assets/BrainCell-2025.03_x86_64_Setup.exe">BrainCell-2025.03_x86_64_Setup.exe</a></li>
+  <li>Password available after <a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">forum registration</a></li>
+  <li>Run the installer</li>
+  <li>Follow installation prompts</li>
+  <li><strong>Done!</strong> Launch BrainCell from Start Menu or Desktop</li>
+</ol>
+
+<p><strong>Includes:</strong> Anaconda + NEURON + BrainCell<br />
+<strong>Time:</strong> 15-30 minutes</p>
+
+<hr />
+
+<p><strong>Manual Installation (Alternative):</strong></p>
+
+<ol>
+  <li>Install <a href="https://neuroalgebra.net/assets/Anaconda3-2023.09-0-Windows-x86_64.exe">Anaconda 2023.09</a>
+    <ul>
+      <li>Choose “Just Me”</li>
+      <li>☑️ Add Anaconda to PATH</li>
+      <li>Restart Windows</li>
+    </ul>
+  </li>
+  <li>Install <a href="https://neuroalgebra.net/assets/nrn-8.2.2-0-setup.exe">NEURON 8.2.2</a>
+    <ul>
+      <li>Use default options</li>
+      <li>Restart Windows</li>
+    </ul>
+  </li>
+  <li>Follow <a href="#category-1--quick-setup">Category 1 steps</a></li>
+</ol>
+
+<p><strong>Time:</strong> 30-60 minutes</p>
+
+<hr />
+
+<h4 id="macos">macOS</h4>
+
+<ol>
+  <li>Install <a href="https://www.anaconda.com/download" target="_blank">Anaconda</a></li>
+  <li>Install <a href="https://neuron.yale.edu/neuron/download" target="_blank">NEURON</a></li>
+  <li>Follow <a href="#category-1--quick-setup">Category 1 steps</a></li>
+</ol>
+
+<p><strong>Time:</strong> 30-60 minutes</p>
+
+<hr />
+
+<h4 id="linux">Linux</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install Anaconda</span>
+wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+<span class="nb">source</span> ~/.bashrc
+
+<span class="c"># Install NEURON</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>neuron  <span class="c"># Ubuntu/Debian</span>
+
+<span class="c"># Follow Category 1 steps</span>
+</code></pre></div></div>
+
+<p><strong>Time:</strong> 30-60 minutes</p>
+
+<hr />
+
+<h3 id="category-3--clean-reinstall">Category 3 – Clean Reinstall</h3>
+<p><em>Partial installation or not working</em></p>
+
+<h4 id="️-critical-remove-everything-first">⚠️ Critical: Remove Everything First</h4>
+
+<p><strong>Windows:</strong></p>
+<ol>
+  <li>Uninstall NEURON and Anaconda (Settings → Apps)</li>
+  <li>Delete folders: <code class="language-plaintext highlighter-rouge">C:\nrn</code>, <code class="language-plaintext highlighter-rouge">C:\Users\[You]\anaconda3</code></li>
+  <li><strong>Restart Windows</strong></li>
+</ol>
+
+<p><strong>macOS:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda /Applications/NEURON ~/neuron
+</code></pre></div></div>
+<p>Restart Mac</p>
+
+<p><strong>Linux:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda ~/neuron
+<span class="nb">sudo </span>apt-get remove <span class="nt">--purge</span> neuron  <span class="c"># if installed via apt</span>
+</code></pre></div></div>
+<p>Restart</p>
+
+<h4 id="now-follow-category-2">Now Follow Category 2</h4>
+
+<p>After removing everything, follow <a href="#category-2--fresh-install">Category 2 Fresh Install</a>.</p>
+
+<p><strong>Recommended:</strong> Use the all-in-one installer <a href="/assets/BrainCell-2025.03_x86_64_Setup.exe">BrainCell-2025.03_x86_64_Setup.exe</a> for Windows.</p>
+
+<p><strong>Time:</strong> 45-75 minutes</p>
+
+<hr />
+
+<h3 id="testing-in-windows-sandbox-reviewers--advanced-users">Testing in Windows Sandbox (Reviewers &amp; Advanced Users)</h3>
+
+<p>For those with Windows 10/11 Pro, you can test BrainCell in an isolated environment without affecting your main system:</p>
+
+<ol>
+  <li><strong>Enable Windows Sandbox:</strong>
+    <ul>
+      <li>Press <strong>Win + R</strong></li>
+      <li>Type: <code class="language-plaintext highlighter-rouge">optionalfeatures</code></li>
+      <li>Check ☑️ <strong>Windows Sandbox</strong></li>
+      <li>Click <strong>OK</strong> and restart</li>
+    </ul>
+  </li>
+  <li><strong>Follow detailed sandbox testing guide:</strong>
+<a href="https://forum.neuroalgebra.net/viewtopic.php?t=173" target="_blank">Windows Sandbox Setup Guide</a></li>
+</ol>
+
+<p><strong>Benefits:</strong></p>
+<ul>
+  <li>Clean testing environment</li>
+  <li>No impact on main system</li>
+  <li>Easy repeatability</li>
+  <li>Complete reset between sessions</li>
+</ul>
+
+<hr />
+
+<h3 id="support--resources">Support &amp; Resources</h3>
+
+<ul>
+  <li><strong>Forum:</strong> <a href="https://forum.neuroalgebra.net" target="_blank">https://forum.neuroalgebra.net</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/RusakovLab/BrainCell" target="_blank">https://github.com/RusakovLab/BrainCell</a></li>
+  <li><strong>Installation Downloads:</strong> <a href="https://forum.neuroalgebra.net/viewtopic.php?t=172" target="_blank">Forum Topic</a></li>
+  <li><strong>Sandbox Testing:</strong> <a href="https://forum.neuroalgebra.net/viewtopic.php?t=173" target="_blank">Forum Guide</a></li>
+</ul>
+
+<hr />
+
+<h3 id="system-requirements">System Requirements</h3>
+
+<p><strong>Minimum:</strong></p>
+<ul>
+  <li>RAM: 4 GB (8 GB recommended)</li>
+  <li>Disk Space: 5 GB free</li>
+  <li>Processor: 64-bit</li>
+</ul>
+
+<p><strong>Operating Systems:</strong></p>
+<ul>
+  <li>Windows 10/11 (64-bit)</li>
+  <li>macOS 10.15+ (Catalina or later)</li>
+  <li>Linux: Ubuntu 20.04+, Debian, Fedora</li>
+</ul>
+
+<hr />
+
+<p><strong>BrainCell Version:</strong> 2025.03<br />
+<strong>Installation Guide Last Updated:</strong> January 2026</p>
 
   </div>
 
