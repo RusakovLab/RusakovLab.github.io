@@ -7,7 +7,7 @@ USER GUIDE
 
 Brain cell *in* *silico*
 
-© University College London, MIT licence
+© University College London, 3-clause BSD licence
 
 01/11/2023
 
