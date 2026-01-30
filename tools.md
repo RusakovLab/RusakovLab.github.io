@@ -44,8 +44,8 @@ order: 20
    
    **Additional Resources:**
    - [GitHub Repository](https://github.com/RusakovLab/BrainCell){:target="_blank"}
-   - [Forum Support & Downloads](https://forum.neuroalgebra.net){:target="_blank"}
-   - [Installation Package Download](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"}
+   - [Forum Support & Downloads](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+   - [Installation Package Download](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
     <hr>
 
 5. **CLOUD COMPUTATION PLUGIN:** we are currently working with
@@ -77,7 +77,7 @@ order: 20
 ### Category 1 – Quick Setup
 *You already have NEURON and Python working*
 
-1. Download `cloudpackage-v1.zip` from [forum](https://forum.neuroalgebra.net/viewtopic.php?t=3){:target="_blank"}
+1. Download `cloudpackage-v1.zip` from [forum](https://forum.neuroalgebra.net/viewtopic.php?t=3){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 2. Create folder: `C:\braincell` (Windows) or `~/braincell` (Mac/Linux)
 3. **Unblock the ZIP:** Right-click → Properties → ☑️ Unblock → Apply (Windows only)
 4. Extract ZIP to your folder
@@ -192,7 +192,7 @@ For those with Windows 10/11 Pro, you can test BrainCell in an isolated environm
    - Click **OK** and restart
 
 2. **Follow detailed sandbox testing guide:**
-   [Windows Sandbox Setup Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+   [Windows Sandbox Setup Guide](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 
 **Benefits:**
 - Clean testing environment
@@ -204,10 +204,10 @@ For those with Windows 10/11 Pro, you can test BrainCell in an isolated environm
 
 ### Support & Resources
 
-- **Forum:** [https://forum.neuroalgebra.net](https://forum.neuroalgebra.net){:target="_blank"}
+- **Forum:** [https://forum.neuroalgebra.net](https://forum.neuroalgebra.net){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 - **GitHub:** [https://github.com/RusakovLab/BrainCell](https://github.com/RusakovLab/BrainCell){:target="_blank"}
-- **Installation Downloads:** [Forum Topic](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"}
-- **Sandbox Testing:** [Forum Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"}
+- **Installation Downloads:** [Forum Topic](https://forum.neuroalgebra.net/viewtopic.php?t=172){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
+- **Sandbox Testing:** [Forum Guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"} - **[Registration required](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**
 
 ---
 
