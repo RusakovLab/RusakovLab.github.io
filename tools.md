@@ -32,7 +32,7 @@ order: 20
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.<br>
    
    **Installation instructions:**
-   - [Quick Installation Guide]({% link assets/BrainCell_Installation_Guide.md %}) (recommended - covers all platforms and scenarios)
+   - [Quick Installation Guide](#braincell-installation-guide) (recommended - covers all platforms and scenarios)
    - [Windows installation instructions]({% link assets/BrainCell Installation Guide Windows v2.docx %})
    - [Linux/macOS/Windows installation instructions]({% link assets/BrainCell Installation Guide 3 OS v2.docx %})
    - [Windows Sandbox testing guide](https://forum.neuroalgebra.net/viewtopic.php?t=173){:target="_blank"}
