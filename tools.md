@@ -34,7 +34,9 @@ order: 20
 3. [**BRAINCELL**]({% link braincell.md %}) is a platform that combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventionse. Its key features include stochastic generation of nano-morphology and function, stop-save-go control of simulation runs, dynamic extracellular and inter-cellular interactions, adaptive import of cell morphologies.     
 
    **Installation:** 
-   [BrainCell-2025.03_x86_64_Setup.exe]({% link assets/BrainCell-2025.03_x86_64_Setup.exe %}) (Windows W10/W11 64-bit installer)<br>
+   [BrainCell-2026.03_x86_64_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Setup.exe %}) (Windows W10/W11 64-bit installer)<br>
+   *Update BrainCell for all types of neurons*
+   [BrainCell-2025.03_x86_64_Setup.exe]({% link assets/BrainCell-2025.03_x86_64_Setup.exe %}) (Windows W10/W11 64-bit installer, previous version)<br>
    **Important note:** To run the Setup you will require password which you can find after
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.<br>
  
@@ -103,7 +105,7 @@ order: 20
 #### Windows (Easiest Method)
 
 **All-in-One Installer (Recommended):**
-1. Download [BrainCell-2025.03_x86_64_Setup.exe]({% link assets/BrainCell-2025.03_x86_64_Setup.exe %})
+1. Download [BrainCell-2026.03_x86_64_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Setup.exe %})
 2. Password available after [forum registration](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}
 3. Run the installer
 4. Follow installation prompts
@@ -184,7 +186,7 @@ Restart
 
 After removing everything, follow [Category 2 Fresh Install](#category-2--fresh-install).
 
-**Recommended:** Use the all-in-one installer [BrainCell-2025.03_x86_64_Setup.exe]({% link assets/BrainCell-2025.03_x86_64_Setup.exe %}) for Windows.
+**Recommended:** Use the all-in-one installer [BrainCell-2026.03_x86_64_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Setup.exe %}) for Windows.
 
 **Time:** 45-75 minutes
 
@@ -234,5 +236,5 @@ For those with Windows 10/11 Pro, you can test BrainCell in an isolated environm
 
 ---
 
-**BrainCell Version:** 2025.03  
+**BrainCell Version:** 2026.03  
 **Installation Guide Last Updated:** January 2026
