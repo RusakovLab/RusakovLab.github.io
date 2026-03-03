@@ -34,8 +34,9 @@ order: 20
 3. [**BRAINCELL**]({% link braincell.md %}) is a platform that combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventionse. Its key features include stochastic generation of nano-morphology and function, stop-save-go control of simulation runs, dynamic extracellular and inter-cellular interactions, adaptive import of cell morphologies.     
 
    **Installation:** 
+   *Update BrainCell*
    [BrainCell-2026.03_x86_64_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Setup.exe %}) (Windows W10/W11 64-bit installer)<br>
-   *Update BrainCell for all types of neurons*
+   *Previous version BrainCell*
    [BrainCell-2025.03_x86_64_Setup.exe]({% link assets/BrainCell-2025.03_x86_64_Setup.exe %}) (Windows W10/W11 64-bit installer, previous version)<br>
    **Important note:** To run the Setup you will require password which you can find after
    **[[Registration at our FORUM]](https://forum.neuroalgebra.net/ucp.php?mode=register){:target="_blank"}**.<br>
