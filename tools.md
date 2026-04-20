@@ -51,8 +51,12 @@ order: 20
    [PDF file]({% link assets/BRAINCELL_User_Guide.pdf %}), or in Word format
    [BRAINCELL_User_Guide.docx]({% link assets/BRAINCELL_User_Guide.docx %})
    (alternatively, check [experimental PDF->HTML conversion]({% link brdoc.md %})).
-   [BrainCell_Agent_Setup_Manual.html]({% link assets/BrainCell_Agent_Setup_Manual.html %})
-   [BrainCell_Agent_User_Manual.html]({% link assets/BrainCell_Agent_User_Manual.html %})
+   **AI Agent Resources
+   Get started with BrainCell using our comprehensive guides:
+
+[Setup & Installation Guide]({% link /assets/BrainCell_Agent_Setup_Manual.html %}) – A step-by-step technical walkthrough for initial configuration.
+
+[End-User Manual]({% link /assets/BrainCell_Agent_User_Manual.html %}) – Best practices and daily operations for the BrainCell Agent.
    
    
  
