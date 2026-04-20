@@ -51,6 +51,10 @@ order: 20
    [PDF file]({% link assets/BRAINCELL_User_Guide.pdf %}), or in Word format
    [BRAINCELL_User_Guide.docx]({% link assets/BRAINCELL_User_Guide.docx %})
    (alternatively, check [experimental PDF->HTML conversion]({% link brdoc.md %})).
+   [BrainCell_Agent_Setup_Manual.html]({% link assets/BrainCell_Agent_Setup_Manual.html %})
+   [BrainCell_Agent_User_Manual.html]({% link assets/BrainCell_Agent_User_Manual.html %})
+   
+   
  
    **Additional Resources:**
    - [GitHub Repository](https://github.com/RusakovLab/BrainCell){:target="_blank"}
