@@ -54,9 +54,9 @@ order: 20
    **AI Agent Resources
    Get started with BrainCell using our comprehensive guides:
 
-[Setup & Installation Guide]({% link /assets/BrainCell_Agent_Setup_Manual.html %}) – A step-by-step technical walkthrough for initial configuration.
+   - [Setup & Installation AI Guide]({% link /assets/BrainCell_Agent_Setup_Manual.html %}) – A step-by-step technical walkthrough for initial configuration.
 
-[End-User Manual]({% link /assets/BrainCell_Agent_User_Manual.html %}) – Best practices and daily operations for the BrainCell Agent.
+   - [End-User AI Manual]({% link /assets/BrainCell_Agent_User_Manual.html %}) – Best practices and daily operations for the BrainCell Agent.
    
    
  
