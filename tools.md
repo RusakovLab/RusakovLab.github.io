@@ -51,6 +51,7 @@ order: 20
    [PDF file]({% link assets/BRAINCELL_User_Guide.pdf %}), or in Word format
    [BRAINCELL_User_Guide.docx]({% link assets/BRAINCELL_User_Guide.docx %})
    (alternatively, check [experimental PDF->HTML conversion]({% link brdoc.md %})).
+   
    **AI Agent Resources **
    Get started with BRAINCELL using our comprehensive guides:
 
