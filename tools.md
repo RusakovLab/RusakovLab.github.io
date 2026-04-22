@@ -52,7 +52,7 @@ order: 20
    [BRAINCELL_User_Guide.docx]({% link assets/BRAINCELL_User_Guide.docx %})
    (alternatively, check [experimental PDF->HTML conversion]({% link brdoc.md %})).
    
-   **AI Agent Resources **
+   **AI Agent Resources**
    Get started with BRAINCELL using our comprehensive guides:
 
    - [Setup & Installation AI Guide]({% link /assets/BrainCell_Agent_Setup_Manual.html %}) – A step-by-step technical walkthrough for AI initial configuration.
