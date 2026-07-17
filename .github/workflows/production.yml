@@ -3,7 +3,7 @@ on:
   push:
     branches: [master]  # Change this to your desired branch
 permissions:
-  contents: write          # lets the built-in GITHUB_TOKEN push to gh-pages
+  contents: write           # lets the built-in GITHUB_TOKEN push to gh-pages
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
