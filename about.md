@@ -16,7 +16,7 @@ and our long-term industrial collaborators at:
 
 To download and explore our computational [Tools](http://neuroalgebra.net/tools.html), please register at [Neuroalgebra Forum](https://forum.neuroalgebra.net/). For support and  suggestions, please consult our [Support Page](http://neuroalgebra.net/support.html). 
 
-Publications reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
+Publications  reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
 1.  [**Astrocyte Kir4. 1 expression level territorially controls excitatory transmission in the brain.**](https://www.cell.com/cell-reports/fulltext/S2211-1247(25)00070-1)  
    Tiurikova O, Kopach O, Zheng K, Rathore D, Codadu N, Wu S-Y, Shen Y, Campbell RE, Wykes RC, Volynski K, Savtchenko LP, Rusakov DA.  
