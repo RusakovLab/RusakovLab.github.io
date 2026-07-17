@@ -2,22 +2,18 @@ name: Build neuroalgebra.net -> rusakovlab.github.io, artifact ZIP (for https:/n
 on:
   push:
     branches: [master]  # Change this to your desired branch
-
 permissions:
   contents: write          # lets the built-in GITHUB_TOKEN push to gh-pages
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4      # was @v1 (Node 12, disabled by GitHub)
       - name: Build the site in the jekyll/builder container with baseurl="/"
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:4 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
       # Save the _site folder as an artifact (and keep it for 1 day only)
       - name: Upload _site folder as artifact
         uses: actions/upload-artifact@v4
@@ -25,7 +21,6 @@ jobs:
           name: neuroalgebra-net-ready
           path: ./_site
           retention-days: 1
-
       # Publish to gh-pages (mapped to https://rusakovlab.github.io)
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
