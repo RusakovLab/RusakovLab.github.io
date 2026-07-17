@@ -95,6 +95,7 @@ video {
 /* Individual video container */
 .video-container.astro,
 .video-container.braincell,
+.video-container.stochastic,
 .video-container.arachne {
   width: 95%;
   margin-bottom: 20px;
@@ -106,8 +107,8 @@ video {
   transition: transform 0.2s ease-in-out;
 }
 
-.video-container.astro, .video-container.arachne { width: calc(25% - 20px); }
-.video-container.braincell { width: calc(50% - 20px); }
+.video-container.astro, .video-container.braincell,
+.video-container.stochastic, .video-container.arachne { width: calc(25% - 20px); }
 
 .video-container:hover { transform: scale(1.05); }
 
@@ -124,6 +125,7 @@ video {
 @media (max-width: 800px) {
   .video-container.astro,
   .video-container.braincell,
+  .video-container.stochastic,
   .video-container.arachne {
     width: 95%;
   }
