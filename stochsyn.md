@@ -22,7 +22,7 @@ layout: page
 - **Interactive exploration**: a graphical interface lets you set parameters, run the diffusion, and view concentration and receptor-activation figures in one window.
 
 #### Background
-STOCHASTIC SYNAPSE implements the modelling framework described in Savtchenko &amp; Rusakov, *"Glutamate&ndash;transporter unbinding in a probabilistic synaptic environment facilitates activation of distant NMDA receptors"* (Cells, 2023). It reproduces how the stochastic tissue geometry and transporter unbinding shape the reach of glutamate and the activation of distant receptors.
+STOCHASTIC SYNAPSE implements the modelling framework developed in a series of studies by Savtchenko, Rusakov and colleagues (see Publications below). Together these works show how the stochastically shaped tissue geometry, glutamate buffering and uptake by astroglial transporters, and glutamate&ndash;transporter unbinding jointly shape the escape of neurotransmitter and the activation of synaptic and distant extrasynaptic receptors.
 
 #### Publications
 The STOCHASTIC SYNAPSE framework is based on the following studies:
