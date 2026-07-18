@@ -12,7 +12,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Neuroalgebra" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Neuroalgebra","name":"Neuroalgebra","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logoB200.png"}},"url":"/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Neuroalgebra","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logoB200.png"}},"url":"/stochsyn.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Neuroalgebra" /><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -74,114 +74,54 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h3> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
+        <article class="post">
 
-<!-- Container for all three tools with videos -->
-<div class="tools-container">
+  
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+  
 
-  <!-- ASTRO -->
-  <div class="video-container astro" onclick="location.href='/astro.html'">
-    <div class="video-text">
-      <p><strong><h3>ASTRO</h3></strong> simulates complex realistic astrocytes incorporating their stochastic nanoscopic 
-      morphology</p>
-    </div>
-    <br />
-    <img class="video-fallback1" src="assets/Astro.png" alt="ASTRO simulation preview" />
-    <video id="myVideo1" loop="" autoplay="" muted="" playsinline="">
-      <source src="assets/Astro.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <div class="post-content">
+    <h1 id="stochastic-synapse">STOCHASTIC SYNAPSE</h1>
 
-  <!-- BRAINCELL -->
-  <div class="video-container braincell" onclick="location.href='/braincell.html'">
-    <div class="video-text">
-      <p><strong><h3>BRAINCELL</h3></strong> simulates brain cell morphology and physiology
-      with their stochastic nano-features, dynamic extracellular environment and inter-cellular
-      signalling, on the scale from nanometers to hundreds of microns</p>
-    </div>
-    <br />
-    <img class="video-fallback3" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview" />
-    <video id="myVideo3" loop="" autoplay="" muted="" playsinline="">
-      <source src="assets/BrainCellGaba.mp4" type="video/mp4" />
-    </video>
-  </div>
+<h4 id="introducing-stochastic-synapse-a-computational-platform-for-exploring-neurotransmitter-diffusion-and-receptor-activation-in-the-crowded-probabilistic-environment-of-the-brain-extracellular-space">Introducing STOCHASTIC SYNAPSE, a computational platform for exploring neurotransmitter diffusion and receptor activation in the crowded, probabilistic environment of the brain extracellular space.</h4>
 
-  <!-- STOCHASTIC SYNAPSE -->
-  <div class="video-container stochastic" onclick="location.href='/stochsyn.html'">
-    <div class="video-text">
-      <p><strong><h3>STOCHASTIC SYNAPSE</h3></strong> simulates neurotransmitter diffusion and
-      receptor activation in the crowded extracellular space, tracking stochastic
-      glutamate&ndash;transporter interactions around the synaptic cleft</p>
-    </div>
-    <br />
-    <img class="video-fallback2" src="assets/BrainCellSpine.png" alt="STOCHASTIC SYNAPSE simulation preview" />
-    <video id="myVideo2" loop="" autoplay="" muted="" playsinline="">
-      <source src="assets/BrainCellSpine.mp4" type="video/mp4" />
-    </video>
-  </div>
+<p><strong>STOCHASTIC SYNAPSE</strong> simulates the release, Brownian diffusion, and uptake of neurotransmitter molecules among realistic nanoscopic obstacles, and computes the resulting activation of synaptic and extrasynaptic receptors. It captures how the stochastic geometry of the neuropil and glutamate–transporter interactions shape signalling at and beyond the synaptic cleft, on the scale from nanometers to microns.</p>
 
-  <!-- ARACHNE -->
-  <div class="video-container arachne" onclick="location.href='/arachne.html'">
-    <div class="video-text">
-      <p><strong><h3>ARACHNE</h3></strong> simulates multi-cell spiking neuronal networks with astrocytes, excitation-inhibition, volume transmission, and flexible memory rules </p><br />
-    </div>
-    <img class="video-fallback4" src="assets/Arachne.png" alt="ARACHNE simulation preview" />
-    <video id="myVideo4" loop="" autoplay="" muted="" playsinline="">
-      <source src="assets/Arachne.mp4" type="video/mp4" />
-    </video>
-  </div>
+<div class="stochsyn-gallery">
+  <img src="/assets/StochSyn1.png" alt="Stochastic Synapse simulation 1" />
+  <img src="/assets/StochSyn2.png" alt="Stochastic Synapse simulation 2" />
+  <img src="/assets/StochSyn3.png" alt="Stochastic Synapse simulation 3" />
+  <img src="/assets/StochSyn4.png" alt="Stochastic Synapse simulation 4" />
 </div>
 
-<script>
-  function loadVideo(videoID, fallbackID, mp4Name) {
-    const video = document.getElementById(videoID);
-    video.style.display = "none";
+<h4 id="key-features">Key Features</h4>
+<ul>
+  <li><strong>Monte Carlo diffusion</strong>: tracks thousands of individual neurotransmitter molecules undergoing Brownian motion in a three-dimensional extracellular space.</li>
+  <li><strong>Realistic stochastic environment</strong>: neuronal and astroglial processes are represented as overlapping nanoscopic obstacles, with a tunable extracellular volume fraction and astroglial coverage.</li>
+  <li><strong>Stochastic transporter kinetics</strong>: glutamate binding, unbinding, and uptake by astroglial transporters are modelled probabilistically, including glutamate–transporter unbinding.</li>
+  <li><strong>Receptor activation maps</strong>: computes spatial and temporal maps of neurotransmitter concentration and of AMPA and NMDA receptor activation as a function of distance and time.</li>
+  <li><strong>Interactive exploration</strong>: a graphical interface lets you set parameters, run the diffusion, and view concentration and receptor-activation figures in one window.</li>
+</ul>
 
-    const nav = navigator.connection;
-    const navApiAvailable = (nav !== undefined);
-    const isWifiOrEthernet = navApiAvailable && (nav.type === "wifi" || nav.type === "ethernet" );
-    const downlinkSufficient = navApiAvailable && nav.downlink > 5;
-    const grabMP4 = (!navApiAvailable || isWifiOrEthernet || downlinkSufficient);
+<h4 id="background">Background</h4>
+<p>STOCHASTIC SYNAPSE implements the modelling framework described in Savtchenko &amp; Rusakov, <em>“Glutamate–transporter unbinding in a probabilistic synaptic environment facilitates activation of distant NMDA receptors”</em> (Cells, 2023). It reproduces how the stochastic tissue geometry and transporter unbinding shape the reach of glutamate and the activation of distant receptors.</p>
 
-    if (grabMP4) {
-      const cacheBuster = Date.now();
-      fetch(`${mp4Name}?cache=${cacheBuster}`) //to debug without caching videos
-//      fetch(`${mp4Name}`)
-        .then(response => {
-            if (response.status === 304) { // Resource not modified, use the cached version
-                return null;
-            } else if (!response.ok) {
-                throw new Error(`Error: ${response.status} - ${response.statusText}`);
-            }
-            return response.blob();
-        })
-        .then(blob => {
-           if (blob !== null) {
-             video.src = URL.createObjectURL(blob);
-             video.addEventListener('loadeddata', () => {
-               // Video has loaded successfully, remove fallback PNG
-               const fallbackElement = document.querySelector(`.${fallbackID}`);
-               if (fallbackElement) { fallbackElement.remove(); }  //to avoid removing twice
-               video.style.display = "block";
-               video.play();
-             });
-           }
-        })
-    }
-  }
+<h4 id="downloads">Downloads</h4>
+<p>Two ready-to-run implementations are provided:</p>
 
-  document.addEventListener("DOMContentLoaded", function() {
-    // Call the function for each video
-    loadVideo("myVideo1", "video-fallback1", "assets/Astro.mp4");
-    loadVideo("myVideo2", "video-fallback2", "assets/BrainCellSpine.mp4");
-    loadVideo("myVideo4", "video-fallback4", "assets/Arachne.mp4");
-    loadVideo("myVideo3", "video-fallback3", "assets/BrainCellGaba.mp4");
+<ul>
+  <li><strong>Python package</strong> (with graphical interface): <a href="/assets/Python.zip">Python.zip</a></li>
+  <li><strong>MATLAB version</strong>: <a href="/assets/MatLab.zip">MatLab.zip</a></li>
+</ul>
 
-  });
+<h4 id="documentation-and-support">Documentation and Support</h4>
+<p>For guidance and questions, please consult our <a href="/support.html">Support Page</a> and join the discussion on the <a href="https://forum.neuroalgebra.net/">Neuroalgebra Forum</a>.</p>
 
-</script>
+  </div>
 
-</div>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
