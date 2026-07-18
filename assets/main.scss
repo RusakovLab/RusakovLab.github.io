@@ -112,6 +112,23 @@ video {
 
 .video-container:hover { transform: scale(1.05); }
 
+/* 2x2 gallery on the Stochastic Synapse page */
+.stochsyn-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+}
+.stochsyn-gallery img {
+  width: calc(50% - 6px);
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+  .stochsyn-gallery img { width: 100%; }
+}
+
 .braincell-videos { display: flex; flex-direction: row; }
 .video-subcontainer { width: 50%; }
 

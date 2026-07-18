@@ -38,7 +38,7 @@ layout: home
   </div>
 
   <!-- STOCHASTIC SYNAPSE -->
-  <div class="video-container stochastic" onclick="location.href='{% link braincell.md %}'">
+  <div class="video-container stochastic" onclick="location.href='{{ '/stochsyn.html' | relative_url }}'">
     <div class="video-text">
       <p><strong><h3>STOCHASTIC SYNAPSE</h3></strong> simulates neurotransmitter diffusion and
       receptor activation in the crowded extracellular space, tracking stochastic
