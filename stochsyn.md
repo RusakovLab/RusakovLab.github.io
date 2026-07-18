@@ -24,6 +24,13 @@ layout: page
 #### Background
 STOCHASTIC SYNAPSE implements the modelling framework described in Savtchenko &amp; Rusakov, *"Glutamate&ndash;transporter unbinding in a probabilistic synaptic environment facilitates activation of distant NMDA receptors"* (Cells, 2023). It reproduces how the stochastic tissue geometry and transporter unbinding shape the reach of glutamate and the activation of distant receptors.
 
+#### Publications
+The STOCHASTIC SYNAPSE framework is based on the following studies:
+
+- Savtchenko LP, Rusakov DA. [Glutamate&ndash;transporter unbinding in probabilistic synaptic environment facilitates activation of distant NMDA receptors](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:b0M2c_1WBrUC). *Cells* **12** (12), 1610 (2023).
+- Savtchenko LP, Rusakov DA. [Increased extrasynaptic glutamate escape in stochastically shaped probabilistic synaptic environment](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:bFI3QPDXJZMC). *Biomedicines* **10** (10), 2406 (2022).
+- Savtchenko LP, Zheng K, Rusakov DA. [Buffering by transporters can spare geometric hindrance in controlling glutamate escape](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:yD5IFk8b50cC). *Frontiers in Cellular Neuroscience* **15**, 707813 (2021).
+
 #### Downloads
 Two ready-to-run implementations are provided:
 
