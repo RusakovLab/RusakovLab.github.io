@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TOOLS
-order: 20
+order: 10
 ---
 
 ### Computational Tools
@@ -13,7 +13,7 @@ order: 20
    <hr>
    <br>
 
-1. [**ASTRO**]({% link astro.md %}) is a computational platform for constructing and exploring realistic multi-compartmental astrocyte models that can be biophysically interrogated in NEURON computational environment, on the scale from nanometers to the entire cell moprhology. ASTRO generates stochastically cell nanoscopic protrusions based on their real-world parameters and enables dynamic interactions between the modelled astorcyte and the surrounding 3D tissue environment.
+1. [**ASTRO**]({% link astro.md %}) is a computational platform for constructing and exploring realistic multi-compartmental astrocyte models that can be biophysically interrogated in NEURON computational environment, on the scale from nanometers to the entire cell morphology. ASTRO generates stochastically cell nanoscopic protrusions based on their real-world parameters and enables dynamic interactions between the modelled astrocyte and the surrounding 3D tissue environment.
  
    **Documentation:** 
    [PDF file]({% link assets/ASTRO_User_Guide_v7.pdf %}).<br>
@@ -31,7 +31,7 @@ order: 20
    *PLoS Comput Biol. 2017 Mar 31;13(3):e1005467. doi: 10.1371/journal.pcbi.1005467.* -->
 
    <hr>
-3. [**BRAINCELL**]({% link braincell.md %}) is a platform that combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventionse. Its key features include stochastic generation of nano-morphology and function, stop-save-go control of simulation runs, dynamic extracellular and inter-cellular interactions, adaptive import of cell morphologies.     
+3. [**BRAINCELL**]({% link braincell.md %}) is a platform that combines theoretical aspects of computational neuroscience with real-world aspects of cell and tissue physiology of the brain, including the capacity to replicate some common experimental designs. The immersive modelling environment enables neuroscientists and neurologists to investigate brain cellular mechanisms and assess the physiological effects of experimental or therapeutic interventions. Its key features include stochastic generation of nano-morphology and function, stop-save-go control of simulation runs, dynamic extracellular and inter-cellular interactions, adaptive import of cell morphologies.     
 
    **Installation:** 
    
@@ -70,7 +70,17 @@ order: 20
 
    <br>
    <hr>
-4. **CLOUD COMPUTATION PLUGIN:** we are currently working with
+4. [**STOCHASTIC SYNAPSE**]({% link stochsyn.md %}) simulates neurotransmitter diffusion and receptor activation in the crowded, probabilistic extracellular space around the synaptic cleft. It follows the Monte Carlo Brownian motion of thousands of glutamate molecules among realistic nanoscopic obstacles, with stochastic glutamate–transporter binding, unbinding and uptake, and computes AMPA/NMDA receptor-activation maps versus distance and time.
+
+   **Downloads:**
+   - Python package (with GUI): [Python.zip]({{ '/assets/Python.zip' | relative_url }})
+   - MATLAB version: [MatLab.zip]({{ '/assets/MatLab.zip' | relative_url }})
+
+   **Details:** [Stochastic Synapse page]({% link stochsyn.md %}).
+
+   <br>
+   <hr>
+5. **CLOUD COMPUTATION PLUGIN:** we are currently working with
    [Neuroscience Gateway - a portal for computational Neuroscience](https://www.nsgportal.org/overview.html)
    to enable computations on their [HPC](https://en.wikipedia.org/wiki/High-performance_computing) 
    supercomputer. When the integration is complete, registered Neuroalgebra users will be able to benefit from 

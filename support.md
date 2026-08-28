@@ -28,7 +28,7 @@ BrainCell ([BRAINCELL User Guide]({% link assets/BRAINCELL_User_Guide.pdf %})),
 ARACHNE ([Arachne User Guide]({% link assets/ARACHNE_UserManual.pdf %})), 
 ASTRO ([ASTRO User Guide]({% link assets/ASTRO_User_Guide_v7.pdf %})).
 - **Tutorial Videos**: Watch step-by-step videos on our YouTube channel to help you get started
-and advance through complex setups ([YouTube User Guide](https://www.youtube.com/watch?v=sCMdTD4Q2OA%3C)).
+and advance through complex setups ([YouTube User Guide](https://www.youtube.com/watch?v=sCMdTD4Q2OA)).
 - **Community-Source Knowledge Base**: Contribute to and learn from a vast repository of 
 user-generated content, from custom scripts to innovative use cases.
 

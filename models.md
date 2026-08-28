@@ -2,7 +2,7 @@
 layout: page
 title: MODELS
 hide_title: true
-order: 35
+order: 20
 ---
 
 ## Computational models created in-house 
@@ -33,11 +33,11 @@ To use ARACHNE, download and install the software first:
 [Download Arachne Installer for Windows]({% link assets/UCLAppInstaller_web.1.5.zip %})
 
 **All uploaded files must be unzipped and placed in the following directory:**
-C:\Users\<username>\arachne\local\
-Replace <username> with your actual Windows username.
+`C:\Users\<username>\arachne\local\`
+Replace `<username>` with your actual Windows username.
 
 
 ### ASTRO (astrocyte) Models
 
-- [Model 1: Example Nanostructure - MATLAB File]({% link models/InterPyramidcurrent.zip %})
+- [Model 1: Example Nanostructure - MATLAB File]({% link models/ExampleofNanostructure.fig %})
 - [Model 2: Single Astrocyte Finger - MATLAB File]({% link models/SinglefNanostructure.fig %})
