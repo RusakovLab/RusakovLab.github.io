@@ -3,18 +3,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.9.0 -->
-<title>Neuroalgebra</title>
+<title>Neuroalgebra | Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators.</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Neuroalgebra" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators." />
+<meta name="twitter:description" property="og:description" content="Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators." />
+<link rel="canonical" href="https://neuroalgebra.net/" />
+<meta property="og:url" content="https://neuroalgebra.net/" />
 <meta property="og:site_name" content="Neuroalgebra" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Neuroalgebra" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Neuroalgebra","name":"Neuroalgebra","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logoB200.png"}},"url":"/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators.","headline":"Neuroalgebra","name":"Neuroalgebra","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://neuroalgebra.net/assets/logoB200.png"}},"url":"https://neuroalgebra.net/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Neuroalgebra" /><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://neuroalgebra.net/feed.xml" title="Neuroalgebra" /><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
@@ -144,9 +148,7 @@
     const grabMP4 = (!navApiAvailable || isWifiOrEthernet || downlinkSufficient);
 
     if (grabMP4) {
-      const cacheBuster = Date.now();
-      fetch(`${mp4Name}?cache=${cacheBuster}`) //to debug without caching videos
-//      fetch(`${mp4Name}`)
+      fetch(mp4Name)   // let the browser/CDN cache the video across visits
         .then(response => {
             if (response.status === 304) { // Resource not modified, use the cached version
                 return null;
@@ -223,7 +225,7 @@
 <!--      <div class="footer-col footer-col-2">&nbsp;</div> <!-- Non-breaking space to force visibility -->
 
       <div class="footer-col footer-col-3">
-<!--        <p></p> -->
+<!--        <p>Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators.</p> -->
         <p><strong>Research project at Queen Square Institute of Neurology, University College London.</strong><br>
         Free resource (3-clause BSD license). Funded by: BBSRC, NC3Rs, MRC, ERC, Wellcome.</p>
       </div>
