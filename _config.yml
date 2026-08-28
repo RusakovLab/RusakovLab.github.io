@@ -20,10 +20,10 @@
 
 title: Neuroalgebra
 email: ""  #[Contact Us] button in the footer.html instead uses JS to obfuscate the Email
-description: ""
+description: "Computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment: BrainCell, Astro, Arachne, and Stochastic Synapse simulators."
 baseurl: "/" # the subpath for https://drmuttik.github.io/neuroalgebra
 #baseurl: "" # for local testing and final deployment
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://neuroalgebra.net" # the base hostname & protocol for the site
 #twitter_username: neuroalgebra
 #github_username: RusakovLab
 logo: "/assets/logoB200.png"

@@ -75,9 +75,7 @@ layout: home
     const grabMP4 = (!navApiAvailable || isWifiOrEthernet || downlinkSufficient);
 
     if (grabMP4) {
-      const cacheBuster = Date.now();
-      fetch(`${mp4Name}?cache=${cacheBuster}`) //to debug without caching videos
-//      fetch(`${mp4Name}`)
+      fetch(mp4Name)   // let the browser/CDN cache the video across visits
         .then(response => {
             if (response.status === 304) { // Resource not modified, use the cached version
                 return null;

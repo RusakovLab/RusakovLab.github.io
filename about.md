@@ -14,7 +14,7 @@ and our long-term industrial collaborators at:
 - **[Unboltsoft](https://unboltsoft.com/) (Dnipro, Ukraine)**
 - **[CyberCurio LLP](https://cybercurio.weebly.com/) (Berkhamsted, UK)**
 
-To download and explore our computational [Tools](http://neuroalgebra.net/tools.html), please register at [Neuroalgebra Forum](https://forum.neuroalgebra.net/). For support and  suggestions, please consult our [Support Page](http://neuroalgebra.net/support.html). 
+To download and explore our computational [Tools](https://neuroalgebra.net/tools.html), please register at [Neuroalgebra Forum](https://forum.neuroalgebra.net/). For support and  suggestions, please consult our [Support Page](https://neuroalgebra.net/support.html). 
 
 Publications  reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
