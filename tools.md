@@ -140,7 +140,8 @@ order: 10
 
 **Manual Installation (Alternative):**
 
-1. Install [Anaconda 2023.09](https://neuroalgebra.net/assets/Anaconda3-2023.09-0-Windows-x86_64.exe)
+1. Install [Anaconda 2023.09](https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Windows-x86_64.exe) ([all versions](https://repo.anaconda.com/archive/), SHA256: `810da8bff79c10a708b7af9e8f21e6bb47467261a31741240f27bd807f155cb9`)
+   - BrainCell is tested with Anaconda3 2023.09-0 (Python 3.11.5). Download it from the official Anaconda archive; do not use third-party mirrors.
    - Choose "Just Me"
    - ☑️ Add Anaconda to PATH
    - Restart Windows
