@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ABOUT
-order: 40
+order: 10
 ---
 
 *Neuroalgebra*  is a collaborative project led by the 
