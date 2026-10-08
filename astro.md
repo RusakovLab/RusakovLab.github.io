@@ -5,7 +5,7 @@ layout: page
 <!--
 <div style="width: 50%; float: left; margin-right: 5px;"><img src="assets/astro.jpg" alt="Astro"></div>
 -->
-![]({% link assets/astro.jpg %})
+<img src="{% link assets/astro.jpg %}" alt="" loading="lazy">
 
 **ASTRO** is a computational tool to construct a realistic multi-compartmental astrocyte 
 model that can be biophysically interrogated in [NEURON](https://www.neuron.yale.edu/neuron/)

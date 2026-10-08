@@ -103,6 +103,18 @@ layout: home
     loadVideo("myVideo4", "video-fallback4", "assets/Arachne.mp4");
     loadVideo("myVideo3", "video-fallback3", "assets/BrainCellGaba.mp4");
 
+    // Keyboard / screen-reader accessibility for the clickable tiles
+    // (behaves like a link; no visual change).
+    document.querySelectorAll(".video-container").forEach(function(tile) {
+      tile.setAttribute("role", "link");
+      tile.setAttribute("tabindex", "0");
+      var h = tile.querySelector("h3");
+      if (h) { tile.setAttribute("aria-label", "Open the " + h.textContent.trim() + " page"); }
+      tile.addEventListener("keydown", function(e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tile.click(); }
+      });
+    });
+
   });
 
 </script>

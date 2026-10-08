@@ -2,7 +2,7 @@
 layout: page
 ---
 # ARACHNE
-<div style="width: 50%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne"></div>
+<div style="width: 50%; float: left; margin-right: 15px;"><img src="assets/arachne.jpg" alt="Arachne" loading="lazy"></div>
 
 **ARACHNE** is designed to model spiking networks of neurons and astrocytes. It is equipped with optimised parallel algorithms for remote computations and a 
 user-friendly interface. A neuroscientist without IT background should be able to incorporate a wide variety of biophysical mechanisms pertinent to nerve and astroglial cells, within a single network model. 
