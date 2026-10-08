@@ -35,7 +35,7 @@ order: 10
 
    **Installation:** 
    
-   *Update BRAINCELL* (Windows W10/W11 64-bit installers; choose one):
+   *Update BRAINCELL* (Windows W10/W11 64-bit installers; choose one):<br>
    [BrainCell-2026.03_x86_64_Neuron_9_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Neuron_9_Setup.exe %}) – bundled with NEURON 9.0.2 and Python 3.11<br>
    [BrainCell-2026.03_x86_64_Neuron_8_Setup.exe]({% link assets/BrainCell-2026.03_x86_64_Neuron_8_Setup.exe %}) – bundled with NEURON 8.2.2 and Python 3.11<br>
    No Anaconda or separate NEURON installation is required. Only one of the two versions can be installed at a time.<br>
@@ -135,7 +135,7 @@ order: 10
    - Choose "Just Me"
    - ☑️ Add Anaconda to PATH
    - Restart Windows
-2. Install [NEURON 8.2.2](https://github.com/neuronsimulator/nrn/releases/tag/8.2.2)
+2. Install [NEURON 8.2.2](https://github.com/neuronsimulator/nrn/releases/tag/8.2.2){:target="_blank"}
    - Use default options
    - Restart Windows
 3. Follow [Category 1 steps](#category-1--quick-setup)
@@ -147,13 +147,13 @@ order: 10
 #### macOS
 
 1. Install the Xcode Command Line Tools (needed by `nrnivmodl` to compile mechanisms): `xcode-select --install`
-2. Install [Anaconda 2023.09](https://repo.anaconda.com/archive/) (Python 3.11): `Anaconda3-2023.09-0-MacOSX-arm64.pkg` for Apple Silicon or `Anaconda3-2023.09-0-MacOSX-x86_64.pkg` for Intel Macs. Newer Anaconda releases ship a Python that NEURON 8.2.2 does not support.
+2. Install [Anaconda 2023.09](https://repo.anaconda.com/archive/){:target="_blank"} (Python 3.11): `Anaconda3-2023.09-0-MacOSX-arm64.pkg` for Apple Silicon or `Anaconda3-2023.09-0-MacOSX-x86_64.pkg` for Intel Macs. Newer Anaconda releases ship a Python that NEURON 8.2.2 does not support.
 3. Install NEURON and the Python packages into Anaconda:
 
-```bash
-pip install neuron==8.2.2
-pip install -r https://neuroalgebra.net/assets/requirements.txt
-```
+   ```bash
+   pip install neuron==8.2.2
+   pip install -r https://neuroalgebra.net/assets/requirements.txt
+   ```
 
 4. Follow [Category 1 steps](#category-1--quick-setup)
 
