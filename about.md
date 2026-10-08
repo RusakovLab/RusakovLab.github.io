@@ -18,6 +18,10 @@ To download and explore our computational [Tools](https://neuroalgebra.net/tools
 
 Publications  reflecting our development and exploration of [ARACHNE](https://neuroalgebra.net/arachne.html), [ASTRO](https://neuroalgebra.net/astro.html), and [BRAINCELL](https://neuroalgebra.net/braincell.html):
 
+1.  [**BRAINCELL modelling platform for stochastic nanoscale organisation and dynamic extracellular signalling among neurons and glia.**](https://www.nature.com/articles/s41467-026-77525-w)  
+   Savtchenko LP, Aleksin SG, Tsimperi C, Villoslada P, Muttik I, Rusakov DA.  
+   *Nature Communications 2026, 17:77525.*
+
 1.  [**Astrocyte Kir4. 1 expression level territorially controls excitatory transmission in the brain.**](https://www.cell.com/cell-reports/fulltext/S2211-1247(25)00070-1)  
    Tiurikova O, Kopach O, Zheng K, Rathore D, Codadu N, Wu S-Y, Shen Y, Campbell RE, Wykes RC, Volynski K, Savtchenko LP, Rusakov DA.  
    *Cell Reports 2025, 44:115299.*

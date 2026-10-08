@@ -70,17 +70,7 @@ order: 10
 
    <br>
    <hr>
-4. [**STOCHASTIC SYNAPSE**]({% link stochsyn.md %}) simulates neurotransmitter diffusion and receptor activation in the crowded, probabilistic extracellular space around the synaptic cleft. It follows the Monte Carlo Brownian motion of thousands of glutamate molecules among realistic nanoscopic obstacles, with stochastic glutamate–transporter binding, unbinding and uptake, and computes AMPA/NMDA receptor-activation maps versus distance and time.
-
-   **Downloads:**
-   - Python package (with GUI): [Python.zip]({{ '/assets/Python.zip' | relative_url }})
-   - MATLAB version: [MatLab.zip]({{ '/assets/MatLab.zip' | relative_url }})
-
-   **Details:** [Stochastic Synapse page]({% link stochsyn.md %}).
-
-   <br>
-   <hr>
-5. **CLOUD COMPUTATION PLUGIN:** we are currently working with
+4. **CLOUD COMPUTATION PLUGIN:** we are currently working with
    [Neuroscience Gateway - a portal for computational Neuroscience](https://www.nsgportal.org/overview.html)
    to enable computations on their [HPC](https://en.wikipedia.org/wiki/High-performance_computing) 
    supercomputer. When the integration is complete, registered Neuroalgebra users will be able to benefit from 
