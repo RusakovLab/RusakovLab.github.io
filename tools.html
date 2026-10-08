@@ -126,11 +126,10 @@
 
     <p><strong>Installation:</strong></p>
 
-    <p><em>Update BRAINCELL</em>
-<a href="/assets/BrainCell-2026.03_x86_64_Setup.exe">BrainCell-2026.03_x86_64_Setup.exe</a> (Windows W10/W11 64-bit installer)<br /></p>
-
-    <p><em>Previous version BRAINCELL</em>
-<a href="/assets/BrainCell-2025.03_x86_64_Setup.exe">BrainCell-2025.03_x86_64_Setup.exe</a> (Windows W10/W11 64-bit installer, previous version)<br />
+    <p><em>Update BRAINCELL</em> (Windows W10/W11 64-bit installers; choose one):
+<a href="/assets/BrainCell-2026.03_x86_64_Neuron_9_Setup.exe">BrainCell-2026.03_x86_64_Neuron_9_Setup.exe</a> – bundled with NEURON 9.0.2 and Python 3.11<br />
+<a href="/assets/BrainCell-2026.03_x86_64_Neuron_8_Setup.exe">BrainCell-2026.03_x86_64_Neuron_8_Setup.exe</a> – bundled with NEURON 8.2.2 and Python 3.11<br />
+No Anaconda or separate NEURON installation is required. Only one of the two versions can be installed at a time.<br />
 <strong>Important note:</strong> To run the Setup you will require password which you can find after
 <strong><a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">[Registration at our FORUM]</a></strong>.<br /></p>
 
@@ -164,6 +163,8 @@ Get started with BRAINCELL using our comprehensive guides:</p>
       <li><a href="https://github.com/RusakovLab/BrainCell" target="_blank">GitHub Repository</a></li>
       <li><a href="https://forum.neuroalgebra.net" target="_blank">Forum Support &amp; Downloads</a> - <strong><a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">Registration required</a></strong></li>
       <li><a href="https://forum.neuroalgebra.net" target="_blank">Installation Package Download</a> - <strong><a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">Registration required</a></strong></li>
+      <li><a href="/assets/THIRD_PARTY_NOTICES.md">Third-Party Notices</a> – licences for bundled components</li>
+      <li><a href="/assets/requirements.txt">Python Requirements</a> – tested package versions</li>
     </ul>
 
     <p><br /></p>
@@ -208,10 +209,10 @@ To register at the forum follow this link:
   <li><strong>Unblock the ZIP:</strong> Right-click → Properties → ☑️ Unblock → Apply (Windows only)</li>
   <li>Extract ZIP to your folder</li>
   <li><strong>Windows:</strong> Unblock <code class="language-plaintext highlighter-rouge">init.bat</code>, then double-click it</li>
-  <li><strong>Mac/Linux:</strong> Run <code class="language-plaintext highlighter-rouge">chmod +x init.sh &amp;&amp; ./init.sh</code></li>
+  <li><strong>Mac/Linux:</strong> The graphical environment is not yet available on these platforms. To run an exported model, compile the mechanisms with <code class="language-plaintext highlighter-rouge">nrnivmodl</code> (put the MOD files from <code class="language-plaintext highlighter-rouge">Mechanisms/Common/MOD_files</code> and <code class="language-plaintext highlighter-rouge">Mechanisms/Neuron/MOD_files</code> – or <code class="language-plaintext highlighter-rouge">Mechanisms/Astrocyte/MOD_files</code> for astrocyte models – into one folder and run <code class="language-plaintext highlighter-rouge">nrnivmodl</code> there; the <code class="language-plaintext highlighter-rouge">nrnmech.dll</code> files in the package are Windows-only), then launch via <code class="language-plaintext highlighter-rouge">nrniv -python &lt;exported_model&gt;.hoc</code></li>
 </ol>
 
-<p><strong>Done!</strong> BrainCell window opens.</p>
+<p><strong>Done!</strong> BrainCell window opens (Windows only).</p>
 
 <hr />
 
@@ -222,15 +223,14 @@ To register at the forum follow this link:
 
 <p><strong>All-in-One Installer (Recommended):</strong></p>
 <ol>
-  <li>Download <a href="/assets/BrainCell-2026.03_x86_64_Setup.exe">BrainCell-2026.03_x86_64_Setup.exe</a></li>
+  <li>Download <a href="/assets/BrainCell-2026.03_x86_64_Neuron_9_Setup.exe">BrainCell-2026.03_x86_64_Neuron_9_Setup.exe</a> (NEURON 9.0.2) or <a href="/assets/BrainCell-2026.03_x86_64_Neuron_8_Setup.exe">BrainCell-2026.03_x86_64_Neuron_8_Setup.exe</a> (NEURON 8.2.2)</li>
   <li>Password available after <a href="https://forum.neuroalgebra.net/ucp.php?mode=register" target="_blank">forum registration</a></li>
   <li>Run the installer</li>
   <li>Follow installation prompts</li>
   <li><strong>Done!</strong> Launch BrainCell from Start Menu or Desktop</li>
 </ol>
 
-<p><strong>Includes:</strong> Anaconda + NEURON + BrainCell<br />
-<strong>Time:</strong> 15-30 minutes</p>
+<p><strong>Time:</strong> 15-30 minutes</p>
 
 <hr />
 
@@ -245,7 +245,7 @@ To register at the forum follow this link:
       <li>Restart Windows</li>
     </ul>
   </li>
-  <li>Install <a href="https://neuroalgebra.net/assets/nrn-8.2.2-0-setup.exe">NEURON 8.2.2</a>
+  <li>Install <a href="https://github.com/neuronsimulator/nrn/releases/tag/8.2.2">NEURON 8.2.2</a>
     <ul>
       <li>Use default options</li>
       <li>Restart Windows</li>
@@ -261,8 +261,16 @@ To register at the forum follow this link:
 <h4 id="macos">macOS</h4>
 
 <ol>
-  <li>Install <a href="https://www.anaconda.com/download" target="_blank">Anaconda</a></li>
-  <li>Install <a href="https://neuron.yale.edu/neuron/download" target="_blank">NEURON</a></li>
+  <li>Install the Xcode Command Line Tools (needed by <code class="language-plaintext highlighter-rouge">nrnivmodl</code> to compile mechanisms): <code class="language-plaintext highlighter-rouge">xcode-select --install</code></li>
+  <li>Install <a href="https://repo.anaconda.com/archive/">Anaconda 2023.09</a> (Python 3.11): <code class="language-plaintext highlighter-rouge">Anaconda3-2023.09-0-MacOSX-arm64.pkg</code> for Apple Silicon or <code class="language-plaintext highlighter-rouge">Anaconda3-2023.09-0-MacOSX-x86_64.pkg</code> for Intel Macs. Newer Anaconda releases ship a Python that NEURON 8.2.2 does not support.</li>
+  <li>Install NEURON and the Python packages into Anaconda:</li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span><span class="nv">neuron</span><span class="o">==</span>8.2.2
+pip <span class="nb">install</span> <span class="nt">-r</span> https://neuroalgebra.net/assets/requirements.txt
+</code></pre></div></div>
+
+<ol>
   <li>Follow <a href="#category-1--quick-setup">Category 1 steps</a></li>
 </ol>
 
@@ -277,8 +285,12 @@ wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
 bash Anaconda3-2023.09-0-Linux-x86_64.sh
 <span class="nb">source</span> ~/.bashrc
 
-<span class="c"># Install NEURON</span>
-<span class="nb">sudo </span>apt-get <span class="nb">install </span>neuron  <span class="c"># Ubuntu/Debian</span>
+<span class="c"># Compiler for nrnivmodl (Ubuntu/Debian)</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential
+
+<span class="c"># Install NEURON and Python packages into Anaconda</span>
+pip <span class="nb">install </span><span class="nv">neuron</span><span class="o">==</span>8.2.2
+pip <span class="nb">install</span> <span class="nt">-r</span> https://neuroalgebra.net/assets/requirements.txt
 
 <span class="c"># Follow Category 1 steps</span>
 </code></pre></div></div>
@@ -300,13 +312,12 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 </ol>
 
 <p><strong>macOS:</strong></p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda /Applications/NEURON ~/neuron
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda /Applications/NEURON  <span class="c"># /Applications/NEURON only if installed from the .pkg</span>
 </code></pre></div></div>
 <p>Restart Mac</p>
 
 <p><strong>Linux:</strong></p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda ~/neuron
-<span class="nb">sudo </span>apt-get remove <span class="nt">--purge</span> neuron  <span class="c"># if installed via apt</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/anaconda3 ~/.conda  <span class="c"># removes Anaconda together with pip-installed NEURON</span>
 </code></pre></div></div>
 <p>Restart</p>
 
@@ -314,7 +325,7 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 
 <p>After removing everything, follow <a href="#category-2--fresh-install">Category 2 Fresh Install</a>.</p>
 
-<p><strong>Recommended:</strong> Use the all-in-one installer <a href="/assets/BrainCell-2026.03_x86_64_Setup.exe">BrainCell-2026.03_x86_64_Setup.exe</a> for Windows.</p>
+<p><strong>Recommended:</strong> Use the all-in-one installer for Windows: <a href="/assets/BrainCell-2026.03_x86_64_Neuron_9_Setup.exe">BrainCell-2026.03_x86_64_Neuron_9_Setup.exe</a> (NEURON 9.0.2) or <a href="/assets/BrainCell-2026.03_x86_64_Neuron_8_Setup.exe">BrainCell-2026.03_x86_64_Neuron_8_Setup.exe</a> (NEURON 8.2.2).</p>
 
 <p><strong>Time:</strong> 45-75 minutes</p>
 
@@ -369,15 +380,14 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 
 <p><strong>Operating Systems:</strong></p>
 <ul>
-  <li>Windows 10/11 (64-bit)</li>
-  <li>macOS 10.15+ (Catalina or later)</li>
-  <li>Linux: Ubuntu 20.04+, Debian, Fedora</li>
+  <li>Windows 10/11 (64-bit) — graphical environment, full functionality</li>
+  <li>macOS / Linux — running exported models only (GUI support in development)</li>
 </ul>
 
 <hr />
 
 <p><strong>BrainCell Version:</strong> 2026.03<br />
-<strong>Installation Guide Last Updated:</strong> January 2026</p>
+<strong>Installation Guide Last Updated:</strong> March 2026</p>
 
   </div>
 
