@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<h3> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
+<h1 class="home-tagline"> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h1>
 
 <!-- Container for all three tools with videos -->
 <div class="tools-container">
