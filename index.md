@@ -5,7 +5,8 @@
 layout: home
 ---
 
-<h1 class="home-tagline"> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h1>
+<h1 class="visually-hidden">Neuroalgebra — a computational portal for modelling brain cells with stochastic nano-properties and an interactive 3D environment</h1>
+<h3> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
 
 <!-- Container for all three tools with videos -->
 <div class="tools-container">
