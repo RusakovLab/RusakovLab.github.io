@@ -951,6 +951,12 @@ video {
   padding: 0;
 }
 
+/* Homepage tagline is now the page <h1> (for SEO/accessibility) but kept at
+   its original h3 size so the visual does not change. */
+.home-tagline {
+  font-size: 1.17em;
+}
+
 /* Media queries for responsive design */
 @media (min-width: 800px) {
   .site-nav {

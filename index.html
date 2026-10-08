@@ -78,7 +78,7 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h3> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
+        <div class="home"><h1 class="home-tagline"> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h1>
 
 <!-- Container for all three tools with videos -->
 <div class="tools-container">
@@ -175,6 +175,18 @@
     loadVideo("myVideo2", "video-fallback2", "assets/BrainCellSpine.mp4");
     loadVideo("myVideo4", "video-fallback4", "assets/Arachne.mp4");
     loadVideo("myVideo3", "video-fallback3", "assets/BrainCellGaba.mp4");
+
+    // Keyboard / screen-reader accessibility for the clickable tiles
+    // (behaves like a link; no visual change).
+    document.querySelectorAll(".video-container").forEach(function(tile) {
+      tile.setAttribute("role", "link");
+      tile.setAttribute("tabindex", "0");
+      var h = tile.querySelector("h3");
+      if (h) { tile.setAttribute("aria-label", "Open the " + h.textContent.trim() + " page"); }
+      tile.addEventListener("keydown", function(e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tile.click(); }
+      });
+    });
 
   });
 
