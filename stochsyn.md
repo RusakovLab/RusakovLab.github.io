@@ -32,10 +32,15 @@ The STOCHASTIC SYNAPSE framework is based on the following studies:
 - Savtchenko LP, Zheng K, Rusakov DA. [Buffering by transporters can spare geometric hindrance in controlling glutamate escape](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:yD5IFk8b50cC). *Frontiers in Cellular Neuroscience* **15**, 707813 (2021).
 
 #### Downloads
-Two ready-to-run implementations are provided:
+A ready-to-run implementation is provided:
 
 - **Python package** (with graphical interface): [Python.zip]({{ '/assets/Python.zip' | relative_url }})
+{% comment %}
+Temporarily hidden; restore by moving the line below out of this comment block
+and changing the sentence above back to "Two ready-to-run implementations are provided:".
+The file assets/MatLab.zip is still in the repository.
 - **MATLAB version**: [MatLab.zip]({{ '/assets/MatLab.zip' | relative_url }})
+{% endcomment %}
 
 #### Documentation and Support
 For guidance and questions, please consult our [Support Page]({% link support.md %}) and join the discussion on the [Neuroalgebra Forum](https://forum.neuroalgebra.net/).
