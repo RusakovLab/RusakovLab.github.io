@@ -25,11 +25,18 @@ layout: page
 STOCHASTIC SYNAPSE implements the modelling framework developed in a series of studies by Savtchenko, Rusakov and colleagues (see Publications below). Together these works show how the stochastically shaped tissue geometry, glutamate buffering and uptake by astroglial transporters, and glutamate&ndash;transporter unbinding jointly shape the escape of neurotransmitter and the activation of synaptic and distant extrasynaptic receptors.
 
 #### Publications
-The STOCHASTIC SYNAPSE framework is based on the following studies:
+The STOCHASTIC SYNAPSE framework is based on the following studies, in chronological order:
 
-- Savtchenko LP, Rusakov DA. [Glutamate&ndash;transporter unbinding in probabilistic synaptic environment facilitates activation of distant NMDA receptors](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:b0M2c_1WBrUC). *Cells* **12** (12), 1610 (2023).
-- Savtchenko LP, Rusakov DA. [Increased extrasynaptic glutamate escape in stochastically shaped probabilistic synaptic environment](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:bFI3QPDXJZMC). *Biomedicines* **10** (10), 2406 (2022).
-- Savtchenko LP, Zheng K, Rusakov DA. [Buffering by transporters can spare geometric hindrance in controlling glutamate escape](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=492YfCEAAAAJ&sortby=pubdate&citation_for_view=492YfCEAAAAJ:yD5IFk8b50cC). *Frontiers in Cellular Neuroscience* **15**, 707813 (2021).
+- Savtchenko LP, Rusakov DA. [The optimal height of the synaptic cleft](https://pubmed.ncbi.nlm.nih.gov/17261811/). *Proceedings of the National Academy of Sciences USA* **104** (6), 1823&ndash;1828 (2007).
+- Sylantyev S, Savtchenko LP, Niu YP, Ivanov AI, Jensen TP, Kullmann DM, Xiao MY, Rusakov DA. [Electric fields due to synaptic currents sharpen excitatory transmission](https://pubmed.ncbi.nlm.nih.gov/18369150/). *Science* **319** (5871), 1845&ndash;1849 (2008).
+- Savtchenko LP, Sylantyev S, Rusakov DA. [Central synapses release a resource-efficient amount of glutamate](https://pubmed.ncbi.nlm.nih.gov/23242311/). *Nature Neuroscience* **16** (1), 10&ndash;12 (2013).
+- Sylantyev S, Jensen TP, Ross RA, Rusakov DA. [Cannabinoid- and lysophosphatidylinositol-sensitive receptor GPR55 boosts neurotransmitter release at central synapses](https://pubmed.ncbi.nlm.nih.gov/23472002/). *Proceedings of the National Academy of Sciences USA* **110** (13), 5193&ndash;5198 (2013).
+- Savtchenko LP, Rusakov DA. [Moderate AMPA receptor clustering on the nanoscale can efficiently potentiate synaptic current](https://pubmed.ncbi.nlm.nih.gov/24298165/). *Philosophical Transactions of the Royal Society B* **369** (1633), 20130167 (2014).
+- Vergnano AM, Rebola N, Savtchenko LP, Pinheiro PS, Casado M, Kieffer BL, Rusakov DA, Mulle C, Paoletti P. [Zinc dynamics and action at excitatory synapses](https://pubmed.ncbi.nlm.nih.gov/24908489/). *Neuron* **82** (5), 1101&ndash;1114 (2014).
+- Savtchenko LP, Zheng K, Rusakov DA. [Conductance of porous media depends on external electric fields](https://pubmed.ncbi.nlm.nih.gov/33609495/). *Biophysical Journal* **120** (8), 1431&ndash;1442 (2021).
+- Savtchenko LP, Zheng K, Rusakov DA. [Buffering by transporters can spare geometric hindrance in controlling glutamate escape](https://pubmed.ncbi.nlm.nih.gov/34366791/). *Frontiers in Cellular Neuroscience* **15**, 707813 (2021).
+- Savtchenko LP, Rusakov DA. [Increased extrasynaptic glutamate escape in stochastically shaped probabilistic synaptic environment](https://pubmed.ncbi.nlm.nih.gov/36289667/). *Biomedicines* **10** (10), 2406 (2022).
+- Savtchenko LP, Rusakov DA. [Glutamate&ndash;transporter unbinding in probabilistic synaptic environment facilitates activation of distant NMDA receptors](https://pubmed.ncbi.nlm.nih.gov/37371080/). *Cells* **12** (12), 1610 (2023).
 
 #### Downloads
 A ready-to-run implementation is provided:
