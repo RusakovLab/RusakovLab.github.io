@@ -80,7 +80,7 @@
       <div class="wrapper">
         <div class="home"><h3> Computational portal for modelling brain cells with stochastic nano-properties and interactive 3D environment.</h3>
 
-<!-- Container for all three tools with videos -->
+<!-- Container for all four tools with videos -->
 <div class="tools-container">
 
   <!-- ASTRO -->
@@ -90,8 +90,8 @@
       morphology</p>
     </div>
     <br />
-    <img class="video-fallback1" src="assets/Astro.png" alt="ASTRO simulation preview" />
-    <video id="myVideo1" loop="" autoplay="" muted="" playsinline="">
+    <img class="video-fallback-astro" src="assets/Astro.png" alt="ASTRO simulation preview" />
+    <video id="vidAstro" loop="" autoplay="" muted="" playsinline="">
       <source src="assets/Astro.mp4" type="video/mp4" />
     </video>
   </div>
@@ -104,21 +104,22 @@
       <p> signalling, on the scale from nanometers to hundreds of microns </p>
     </div>
     <br />
-    <div class="braincell-videos">
-      <div class="video-subcontainer">
-        <img class="video-fallback2" src="assets/BrainCellSpine.png" alt="BRAINCELL simulation preview" />
-        <video id="myVideo2" loop="" autoplay="" muted="" playsinline="">
-          <source src="assets/BrainCellSpine.mp4" type="video/mp4" />
-        </video>
-      </div>
-      <div class="separator"></div>
-      <div class="video-subcontainer">
-        <img class="video-fallback3" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview" />
-        <video id="myVideo3" loop="" autoplay="" muted="" playsinline="">
-          <source src="assets/BrainCellGaba.mp4" type="video/mp4" />
-        </video>
-      </div>
+    <img class="video-fallback-braincell" src="assets/BrainCellGaba.png" alt="BRAINCELL simulation preview" />
+    <video id="vidBraincell" loop="" autoplay="" muted="" playsinline="">
+      <source src="assets/BrainCellGaba.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- STOCHASTIC SYNAPSE -->
+  <div class="video-container stochastic" onclick="location.href='/stochsyn.html'">
+    <div class="video-text">
+      <p><strong><h3>STOCHASTIC SYNAPSE</h3></strong> simulates release, Brownian diffusion and uptake of neurotransmitter among nanoscopic obstacles, and computes activation of synaptic and extrasynaptic receptors</p>
     </div>
+    <br />
+    <img class="video-fallback-stochastic" src="assets/StochasticSynapse.png" alt="STOCHASTIC SYNAPSE simulation preview" />
+    <video id="vidStochastic" loop="" autoplay="" muted="" playsinline="">
+      <source src="assets/stochasticSynapse.mp4" type="video/mp4" />
+    </video>
   </div>
 
   <!-- ARACHNE -->
@@ -126,8 +127,8 @@
     <div class="video-text">
       <p><strong><h3>ARACHNE</h3></strong> simulates multi-cell spiking neuronal networks with astrocytes, excitation-inhibition, volume transmission, and flexible memory rules </p><br />
     </div>
-    <img class="video-fallback4" src="assets/Arachne.png" alt="ARACHNE simulation preview" />
-    <video id="myVideo4" loop="" autoplay="" muted="" playsinline="">
+    <img class="video-fallback-arachne" src="assets/Arachne.png" alt="ARACHNE simulation preview" />
+    <video id="vidArachne" loop="" autoplay="" muted="" playsinline="">
       <source src="assets/Arachne.mp4" type="video/mp4" />
     </video>
   </div>
@@ -171,10 +172,10 @@
 
   document.addEventListener("DOMContentLoaded", function() {
     // Call the function for each video
-    loadVideo("myVideo1", "video-fallback1", "assets/Astro.mp4");
-    loadVideo("myVideo2", "video-fallback2", "assets/BrainCellSpine.mp4");
-    loadVideo("myVideo4", "video-fallback4", "assets/Arachne.mp4");
-    loadVideo("myVideo3", "video-fallback3", "assets/BrainCellGaba.mp4");
+    loadVideo("vidAstro",      "video-fallback-astro",      "assets/Astro.mp4");
+    loadVideo("vidBraincell",  "video-fallback-braincell",  "assets/BrainCellGaba.mp4");
+    loadVideo("vidStochastic", "video-fallback-stochastic", "assets/stochasticSynapse.mp4");
+    loadVideo("vidArachne",    "video-fallback-arachne",    "assets/Arachne.mp4");
 
     // Keyboard / screen-reader accessibility for the clickable tiles
     // (behaves like a link; no visual change).
