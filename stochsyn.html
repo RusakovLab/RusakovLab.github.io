@@ -89,9 +89,9 @@
   <div class="post-content">
     <h1 id="stochastic-synapse">STOCHASTIC SYNAPSE</h1>
 
-<h4 id="introducing-stochastic-synapse-a-computational-platform-for-exploring-neurotransmitter-diffusion-and-receptor-activation-in-the-crowded-probabilistic-environment-of-the-brain-extracellular-space">Introducing STOCHASTIC SYNAPSE, a computational platform for exploring neurotransmitter diffusion and receptor activation in the crowded, probabilistic environment of the brain extracellular space.</h4>
+<h4 id="introducing-stochastic-synapse-a-computational-platform-for-exploring-neurotransmitter-diffusion-and-receptor-activation-in-the-crowded-probabilistic-environment-of-the-brain-extracellular-space-its-current-default-version-applies-to-central-glutamatergic-synapses-and-can-be-extended-to-other-synaptic-types">Introducing STOCHASTIC SYNAPSE, a computational platform for exploring neurotransmitter diffusion and receptor activation in the crowded, probabilistic environment of the brain extracellular space. Its current default version applies to central glutamatergic synapses and can be extended to other synaptic types.</h4>
 
-<p><strong>STOCHASTIC SYNAPSE</strong> simulates the release, Brownian diffusion, and uptake of neurotransmitter molecules among realistic nanoscopic obstacles, and computes the resulting activation of synaptic and extrasynaptic receptors. It captures how the stochastic geometry of the neuropil and glutamate–transporter interactions shape signalling at and beyond the synaptic cleft, on the scale from nanometers to microns.</p>
+<p><strong>STOCHASTIC SYNAPSE</strong> simulates the release, Brownian diffusion, and uptake of neurotransmitter (glutamate) molecules among realistic nanoscopic obstacles, and computes the resulting activation of synaptic and extrasynaptic receptors. It captures how the stochastic geometry of the neuropil and glutamate-transporter interactions shape signalling within and beyond the synaptic cleft, on the scale from nanometers to microns.</p>
 
 <div class="stochsyn-gallery">
   <img src="/assets/StochSyn1.png" alt="Stochastic Synapse simulation 1" />
@@ -102,15 +102,15 @@
 
 <h4 id="key-features">Key Features</h4>
 <ul>
-  <li><strong>Monte Carlo diffusion</strong>: tracks thousands of individual neurotransmitter molecules undergoing Brownian motion in a three-dimensional extracellular space.</li>
-  <li><strong>Realistic stochastic environment</strong>: neuronal and astroglial processes are represented as overlapping nanoscopic obstacles, with a tunable extracellular volume fraction and astroglial coverage.</li>
-  <li><strong>Stochastic transporter kinetics</strong>: glutamate binding, unbinding, and uptake by astroglial transporters are modelled probabilistically, including glutamate–transporter unbinding.</li>
-  <li><strong>Receptor activation maps</strong>: computes spatial and temporal maps of neurotransmitter concentration and of AMPA and NMDA receptor activation as a function of distance and time.</li>
-  <li><strong>Interactive exploration</strong>: a graphical interface lets you set parameters, run the diffusion, and view concentration and receptor-activation figures in one window.</li>
+  <li><strong>Monte Carlo diffusion</strong>: tracks thousands of individual neurotransmitter (glutamate) molecules that are released at the synaptic cleft centre and undergo Brownian motion in a tortuous three-dimensional extracellular space.</li>
+  <li><strong>Realistic perisynaptic environment</strong>: neuronal and astrocyte processes are represented as stochastically generated nanoscopic obstacles (overlapping spheroidal compartments), with tunable (experimentally constrained) respective extracellular volume fractions.</li>
+  <li><strong>Stochastic transporter kinetics</strong>: glutamate binding, unbinding, and uptake by astroglial transporters are modelled probabilistically, including glutamate-transporter unbinding.</li>
+  <li><strong>Receptor activation maps</strong>: computes spatial and temporal maps of glutamate concentration and of AMPA and NMDA receptor activation as a function of distance and time.</li>
+  <li><strong>Interactive exploration</strong>: a graphical interface lets you set experimentally-constrained parameters of the synpatic environment, run diffusion-reaction processes, and view concentration and receptor-activation figures in one window.</li>
 </ul>
 
 <h4 id="background">Background</h4>
-<p>STOCHASTIC SYNAPSE implements the modelling framework developed in a series of studies by Savtchenko, Rusakov and colleagues (see Publications below). Together these works show how the stochastically shaped tissue geometry, glutamate buffering and uptake by astroglial transporters, and glutamate–transporter unbinding jointly shape the escape of neurotransmitter and the activation of synaptic and distant extrasynaptic receptors.</p>
+<p>STOCHASTIC SYNAPSE implements the modelling framework developed in a series of studies by Savtchenko, Rusakov and colleagues (see Publications below). Together these works show how the stochastically shaped tissue geometry, glutamate buffering and uptake by astroglial transporters, and glutamate-transporter unbinding jointly shape the escape of neurotransmitter and the activation of synaptic and distant glutamate receptors.</p>
 
 <h4 id="publications">Publications</h4>
 <p>The STOCHASTIC SYNAPSE framework is based on the following studies:</p>
