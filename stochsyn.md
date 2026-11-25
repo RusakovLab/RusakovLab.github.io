@@ -19,7 +19,7 @@ layout: page
 - **Realistic perisynaptic environment**: neuronal and astrocyte processes are represented as stochastically generated nanoscopic obstacles (overlapping spheroidal compartments), with tunable (experimentally constrained) respective extracellular volume fractions.
 - **Stochastic transporter kinetics**: glutamate binding, unbinding, and uptake by astroglial transporters are modelled probabilistically, including glutamate-transporter unbinding.
 - **Receptor activation maps**: computes spatial and temporal maps of glutamate concentration and of AMPA and NMDA receptor activation as a function of distance and time.
-- **Interactive exploration**: a graphical interface lets you set experimentally-constrained parameters of the synpatic environment, run diffusion-reaction processes, and view concentration and receptor-activation figures in one window.
+- **Interactive exploration**: a graphical interface lets you set experimentally-constrained parameters of the synaptic environment, run diffusion-reaction processes, and view concentration and receptor-activation figures in one window.
 
 #### Background
 STOCHASTIC SYNAPSE implements the modelling framework developed in a series of studies by Savtchenko, Rusakov and colleagues (see Publications below). Together these works show how the stochastically shaped tissue geometry, glutamate buffering and uptake by astroglial transporters, and glutamate-transporter unbinding jointly shape the escape of neurotransmitter and the activation of synaptic and distant glutamate receptors.
